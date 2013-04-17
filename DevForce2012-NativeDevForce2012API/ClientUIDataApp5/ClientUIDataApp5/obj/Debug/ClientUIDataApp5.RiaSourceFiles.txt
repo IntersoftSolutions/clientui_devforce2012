@@ -1,0 +1,2 @@
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.Web\ClientUIDataApp5.Web.csproj,635006121236200713,Properties\AssemblyInfo.cs,
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\ClientUIDataApp5.DomainModel.csproj,635006116898292598,NorthwindModel.IB.Designer.cs,Properties\AssemblyInfo.cs,

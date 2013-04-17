@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Intersoft.Client.Data.ComponentModel</name>
+    </assembly>
+    <members>
+        <member name="T:Intersoft.Client.Data.ComponentModel.SortDescriptorCollection">
+            <summary>
+            Represent collection of sort descriptor.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.ObservableItemCollection`1">
+            <summary>
+            Represent observerable collection that listen to item property changed.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.INotifyItemChanged">
+            <summary>
+            Defines data member for INotifyItemChanged object.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.INotifyItemChanged.ItemChanged">
+            <summary>
+            Occurs when the property value of an item is changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.ObservableItemCollection`1.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Raises the CollectionChanged event with the provided event data.
+            </summary>
+            <param name="e">The event data to report in the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.ObservableItemCollection`1.OnItemChanged(Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs{`0})">
+            <summary>
+            Raises the ItemChanged event.
+            </summary>
+            <param name="e">The event data to report in the event.</param>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.ObservableItemCollection`1.ItemChanged">
+            <summary>
+            Handles item changed event.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.ObservableItemCollection`1.Intersoft#Client#Data#ComponentModel#INotifyItemChanged#ItemChanged">
+            <summary>
+            Occurs when the property of item is changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.SortDescriptorCollection.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Raises the CollectionChanged event with the provided event data.
+            </summary>
+            <param name="e">The event data to report in the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.SortDescriptorCollection.OnItemChanged(Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs{Intersoft.Client.Data.ComponentModel.SortDescriptor})">
+            <summary>
+            Raises the ItemChanged event.
+            </summary>
+            <param name="e">The event data to report in the event.</param>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.ExpressionExtensions">
+            <summary>
+            Extention methods for Expression classes.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.ExpressionExtensions.AsMemberExpression(System.Linq.Expressions.Expression)">
+            <summary>
+            Get Expression as MemberExpression.
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.ExpressionExtensions.AsMemberExpression(System.Linq.Expressions.LambdaExpression)">
+            <summary>
+            Get LambdaExpression as MemberExpression.
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.ExpressionExtensions.AsMemberExpression(System.Linq.Expressions.UnaryExpression)">
+            <summary>
+            Get UnaryExpression as MemberExpression.
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.CollectionViews.PropertyGroupDescription">
+            <summary>
+            Represents property group description.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.PropertyTypeConverterAttribute">
+            <summary>
+            Represents the attribute to define a type converter for a marked class or property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PropertyTypeConverterAttribute.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the PropertyTypeConverterAttribute class. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyTypeConverterAttribute.Type">
+            <summary>
+            Gets or sets the converter type
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.IDescription">
+            <summary>
+            Defines data member for description object.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.IDescription.ExpressionBuilderOptions">
+            <summary>
+            Gets the expression builder options.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.ISort">
+            <summary>
+            Defines data member for sort description.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.ISort.CreateSortExpression(System.Linq.Expressions.Expression)">
+            <summary>
+            Create the sort expression.
+            </summary>
+            <param name="itemExpression"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.ISort.Direction">
+            <summary>
+            Gets or sets the sort direction.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.Aggregate">
+            <summary>
+            Specifies type of aggregate values.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.Aggregate.Avg">
+            <summary>
+            Average.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.Aggregate.Count">
+            <summary>
+            Count
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.Aggregate.Max">
+            <summary>
+            Max.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.Aggregate.Min">
+            <summary>
+            Min.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.Aggregate.None">
+            <summary>
+            None.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.Aggregate.Sum">
+            <summary>
+            Sum.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.FilterCompositionLogicalOperator">
+            <summary>
+            Specifies type of logical filter composition operator.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterCompositionLogicalOperator.And">
+            <summary>
+            And.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterCompositionLogicalOperator.Or">
+            <summary>
+            Or.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.FilterOperator">
+            <summary>
+            Specifies type of filter operator.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.IsLessThan">
+            <summary>
+            Less Than.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.IsLessThanOrEqualTo">
+            <summary>
+            Less Than or Equal To.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.IsEqualTo">
+            <summary>
+            Equal To.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.IsNotEqualTo">
+            <summary>
+            Not Equal To.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.IsGreaterThanOrEqualTo">
+            <summary>
+            Greater Than or Equal To.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.IsGreaterThan">
+            <summary>
+            Greater Than.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.StartsWith">
+            <summary>
+            Starts With.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.EndsWith">
+            <summary>
+            Ends With.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.Contains">
+            <summary>
+            Contains.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.DoesNotContain">
+            <summary>
+            Does Not Contains.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.IsContainedIn">
+            <summary>
+            Contained In.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.FilterOperator.IsNullOrEmpty">
+            <summary>
+            Is Null Or Empty
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.MemberType">
+            <summary>
+            Specifies the constants that determine the member type.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.MemberType.Property">
+            <summary>
+            Property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.Data.ComponentModel.MemberType.EventHandler">
+            <summary>
+            Event handler.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.IEnumerableExtensions">
+            <summary>
+            Extension method for IEnumerable class.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.IEnumerableExtensions.ToReadOnlyCollection``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Convert the collection to read only collection.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="sequence"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.DisplayMemberAttribute">
+            <summary>
+            Represents the attribute to define the display member for marked property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.DisplayMemberAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the DisplayMemberAttribute class. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.DisplayMemberAttribute.DisplayMemberPath">
+            <summary>
+            Gets or sets the display member path of marked property.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.ICompositeFilterDescriptor">
+            <summary>
+            Defines data member for composite filter descriptor.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.ICompositeFilter">
+            <summary>
+            Defines data member for composite filter description.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.ICompositeFilter.Filters">
+            <summary>
+            Gets the composite filter collection.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.ICompositeFilter.LogicalOperator">
+            <summary>
+            Gets or sets composite logical operator.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.IFilterDescriptor">
+            <summary>
+            Defines data member for filter descriptor.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.IFilter">
+            <summary>
+            Define data member for filter description.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.IFilter.CreateFilterExpression(System.Linq.Expressions.Expression)">
+            <summary>
+            Create the filter expression.
+            </summary>
+            <param name="instance"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.ICompositeFilterDescriptor.FilterDescriptors">
+            <summary>
+            Gets the composite filter descriptor collection.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.IFilterValue">
+            <summary>
+            Defines data members that represent filter descriptor.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.IFilterValue.Operator">
+            <summary>
+            Gets or sets the filter operator.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.IFilterValue.Value">
+            <summary>
+            Gets or sets the filter value.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.IFilterValue.IsCaseSensitive">
+            <summary>
+            Gets or sets a value that indicates whether the filter should be case sensitive.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.IFilterValue.PropertyName">
+            <summary>
+            Gets or sets the property name for the filter descriptor.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.IFilterValue.PropertyType">
+            <summary>
+            Gets or sets the property type for the filter descriptor.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.DataListProviderAttribute">
+            <summary>
+            Represents the attribute to define the data list provider which will be used for marked property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.DataListProviderAttribute.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the DataListProviderAttribute class. 
+            </summary>
+            <param name="type">Element type.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.DataListProviderAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the DataListProviderAttribute class. 
+            </summary>
+            <param name="typeName">Element type name.</param>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.DataListProviderAttribute.Type">
+            <summary>
+            Gets or sets the data list provider type.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.QueryProviderExtensions">
+            <summary>
+            Extention methods for IQueryProvider.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.QueryProviderExtensions.IsLinqToObjectsProvider(System.Linq.IQueryProvider)">
+            <summary>
+            Determine whether the provider is LinqToObject provider.
+            </summary>
+            <param name="provider">IQueryProvider</param>
+            <returns>A value that indicates whether the provider is LinqToObject provider.</returns>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.FilterValue">
+            <summary>
+            Represent value for data filtering.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.FilterValue.UnsetValue">
+            <summary>
+            Gets constant variable for unset value.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.FilterValue.NegativeValue">
+            <summary>
+            Gets constant variable for negative value.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.PagedCollectionView">
+            <summary>Represents a view for grouping, sorting, filtering, and navigating a paged data collection.</summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.#ctor(System.Collections.IEnumerable)">
+            <summary>Initializes a new instance of the <see cref="T:System.Windows.Data.PagedCollectionView" /> class.</summary>
+            <param name="source">The source for the collection.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.#ctor(System.Collections.IEnumerable,System.Boolean,System.Boolean)">
+            <summary>Initializes a new instance of the <see cref="T:System.Windows.Data.PagedCollectionView" /> class and specifies whether the data is sorted and in group order.</summary>
+            <param name="source">The source for the collection.</param>
+            <param name="isDataSorted">Specifies whether the source is already sorted.</param>
+            <param name="isDataInGroupOrder">Specifies whether the source is already in the correct order for grouping.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="source" /> is null.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.AddNew">
+            <summary>Adds a new item to the underlying collection. </summary>
+            <returns>The new item that is being added.</returns>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.CanAddNew" /> is false.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CancelEdit">
+            <summary>Ends the edit transaction and, if it is possible, restores the original value of the item.</summary>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.CanCancelEdit" /> is false.-or-<see cref="P:System.Windows.Data.PagedCollectionView.IsAddingNew" /> is true.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CancelNew">
+            <summary>Ends the add transaction and discards the pending new item.</summary>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.IsEditingItem" /> is true.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CommitEdit">
+            <summary>Ends the edit transaction and saves the pending changes.</summary>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.IsAddingNew" /> is true.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CommitNew">
+            <summary>Ends the add transaction and saves the pending new item.</summary>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.IsEditingItem" /> is true.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.Contains(System.Object)">
+            <summary>Returns a value that indicates whether the specified item belongs to this collection view.</summary>
+            <returns>true if the specified item belongs to this collection view; otherwise, false.</returns>
+            <param name="item">The object to check.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CopyDefinitionsFrom(Intersoft.Client.Data.ComponentModel.PagedCollectionView)">
+            <summary>
+            Copy the paged collection view definition from the given source.
+            </summary>
+            <param name="source"></param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CopyDefinitionsFrom(Intersoft.Client.Data.ComponentModel.PagedCollectionView,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Copy the paged collection view definition from the given source.
+            </summary>
+            <param name="source"></param>
+            <param name="includeGroupDescriptions">Copy the group description.</param>
+            <param name="includeSortDescriptions">Copy the sort description.</param>
+            <param name="includeFilterDescriptions">Copy the filter description.</param>
+            <param name="includePageDescription">Copy the paging description.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.DeferRefresh">
+            <summary>Enters a defer cycle that you can use to merge changes to the view and delay automatic refresh.</summary>
+            <returns>An <see cref="T:System.IDisposable" /> object that you can use to dispose of the calling object.</returns>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.IsAddingNew" /> is true.-or-<see cref="P:System.Windows.Data.PagedCollectionView.IsEditingItem" /> is true.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.EditItem(System.Object)">
+            <summary>Begins an edit transaction on the specified item.</summary>
+            <param name="item">The item to edit.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.GetEnumerator">
+            <summary>Returns an <see cref="T:System.Collections.IEnumerator" /> object that you can use to enumerate the items in the view.</summary>
+            <returns>An <see cref="T:System.Collections.IEnumerator" /> object that you can use to enumerate the items in the view.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.GetItemAt(System.Int32)">
+            <summary>Gets the item at the specified zero-based index in this <see cref="T:System.Windows.Data.PagedCollectionView" />, after the source collection is filtered, sorted, and paged.</summary>
+            <returns>The item at the specified zero-based index.</returns>
+            <param name="index">The zero-based index of the item to retrieve.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            <paramref name="index" /> is less than 0, or greater than or equal to the <see cref="P:System.Windows.Data.PagedCollectionView.Count" /> of items in the view.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.IndexOf(System.Object)">
+            <summary>Returns the zero-based index at which the specified item is located.</summary>
+            <returns>The index at which the specified item is located, or –1 if the item is unknown.</returns>
+            <param name="item">The item to locate.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveCurrentTo(System.Object)">
+            <summary>Sets the specified item to be the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> in the view.</summary>
+            <returns>true if the resulting <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> is an item in the view; otherwise, false.</returns>
+            <param name="item">The item to set as the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" />.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveCurrentToFirst">
+            <summary>Sets the first item in the view as the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" />.</summary>
+            <returns>true if the resulting <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> is an item in the view; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveCurrentToLast">
+            <summary>Sets the last item in the view as the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" />.</summary>
+            <returns>true if the resulting <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> is an item in the view; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveCurrentToNext">
+            <summary>Set the item after the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> in the view as the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" />.</summary>
+            <returns>true if the resulting <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> is an item in the view; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveCurrentToPosition(System.Int32)">
+            <summary>Sets the item at the specified index to be the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> in the view.</summary>
+            <returns>true if the resulting <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> is an item in the view; otherwise, false.</returns>
+            <param name="position">The index to set the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> to.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            <paramref name="position" /> is less than -1 or greater than the <see cref="P:System.Windows.Data.PagedCollectionView.Count" /> of items in the view.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveCurrentToPrevious">
+            <summary>Sets the item before the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> in the view as the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" />.</summary>
+            <returns>true if the resulting <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> is an item in the view; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveToFirstPage">
+            <summary>Sets the first page as the current page.</summary>
+            <returns>true if the operation was successful; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveToLastPage">
+            <summary>Sets the last page as the current page.</summary>
+            <returns>true if the operation was successful; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveToNextPage">
+            <summary>Moves to the page after the current page.</summary>
+            <returns>true if the operation was successful; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveToPage(System.Int32)">
+            <summary>Moves to the page at the specified index.</summary>
+            <returns>true if the operation was successful; otherwise, false.</returns>
+            <param name="pageIndex">The index of the page to move to.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.MoveToPreviousPage">
+            <summary>Moves to the page before the current page.</summary>
+            <returns>true if the operation was successful; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.PassesFilter(System.Object)">
+            <summary>Returns a value that indicates whether the specified item in the underlying collection belongs to the view after filters are applied.</summary>
+            <returns>true if the specified item belongs to the filtered view or if no filter is set on the collection view; otherwise, false.</returns>
+            <param name="item">The item to check.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.Refresh">
+            <summary>Re-creates the view.</summary>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.IsAddingNew" /> is true.-or- <see cref="P:System.Windows.Data.PagedCollectionView.IsEditingItem" /> is true.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.Remove(System.Object)">
+            <summary>Removes the specified item from the collection.</summary>
+            <param name="item">The item to remove.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.RemoveAt(System.Int32)">
+            <summary>Removes the item at the specified position from the collection.</summary>
+            <param name="index">The zero-based index of the item to remove.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            <paramref name="index" /> is less than 0, or greater than or equal to the <see cref="P:System.Windows.Data.PagedCollectionView.Count" /> of items in the view.</exception>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.IsAddingNew" /> is true.-or- <see cref="P:System.Windows.Data.PagedCollectionView.IsEditingItem" /> is true.-or-<see cref="P:System.Windows.Data.PagedCollectionView.CanRemove" /> is false.</exception>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PagedCollectionView.System#Collections#IEnumerable#GetEnumerator">
+            <summary>Returns an enumerator that iterates through a collection.</summary>
+            <returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CollectionChanged">
+            <summary>Occurs when the view has changed.</summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CurrentChanged">
+            <summary>Occurs after the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> has changed.</summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CurrentChanging">
+            <summary>Occurs when the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> is changing.</summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.PagedCollectionView.PageChanged">
+            <summary>Occurs after the <see cref="P:System.Windows.Data.PagedCollectionView.PageIndex" /> has changed.</summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.PagedCollectionView.PageChanging">
+            <summary>Occurs when the <see cref="P:System.Windows.Data.PagedCollectionView.PageIndex" /> is changing.</summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.PagedCollectionView.PropertyChanged">
+            <summary>Occurs after a property value has changed.</summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CanAddNew">
+            <summary>Gets a value that indicates whether a new item can be added to the collection.</summary>
+            <returns>true if a new item can be added to the collection; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CanCancelEdit">
+            <summary>Gets a value that indicates whether the collection view can discard pending changes and restore the original values of an edited object.</summary>
+            <returns>true if the collection view can discard pending changes and restore the original values of an edited object; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CanChangePage">
+            <summary>Gets a value that indicates whether the <see cref="P:System.Windows.Data.PagedCollectionView.PageIndex" /> value can change.</summary>
+            <returns>true in all cases.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CanFilter">
+            <summary>Gets a value that indicates whether this view supports filtering by way of the <see cref="P:System.Windows.Data.PagedCollectionView.Filter" /> property.</summary>
+            <returns>true in all cases.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CanGroup">
+            <summary>Gets a value that indicates whether this view supports grouping. </summary>
+            <returns>true in all cases.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CanRemove">
+            <summary>Gets a value that indicates whether an item can be removed from the collection.</summary>
+            <returns>true if an item can be removed from the collection; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CanSort">
+            <summary>Gets a value that indicates whether this view supports sorting.</summary>
+            <returns>true in all cases.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.Count">
+            <summary>Gets the number of records in the view after filtering, sorting, and paging.</summary>
+            <returns>The number of records in the view after filtering, sorting, and paging.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.Culture">
+            <summary>Gets or sets the cultural information for any operations of the view that might differ by culture, such as sorting.</summary>
+            <returns>The culture to use during view operations.</returns>
+            <exception cref="T:System.ArgumentNullException">The culture information is null.</exception>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CurrentAddItem">
+            <summary>Gets the item that is being added when an <see cref="M:System.Windows.Data.PagedCollectionView.AddNew" /> transaction is in progress.</summary>
+            <returns>The item that is being added if <see cref="P:System.Windows.Data.PagedCollectionView.IsAddingNew" /> is true; otherwise, null.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CurrentEditItem">
+            <summary>Gets the item in the collection that is being edited when an <see cref="M:System.Windows.Data.PagedCollectionView.EditItem(System.Object)" /> transaction is in progress.</summary>
+            <returns>The item that is being edited if <see cref="P:System.Windows.Data.PagedCollectionView.IsEditingItem" /> is true; otherwise, null.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CurrentItem">
+            <summary>Gets the current item in the view.</summary>
+            <returns>The current item in the view or null if there is no current item.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.CurrentPosition">
+            <summary>Gets the ordinal position of the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> in the view, which might be sorted and filtered.</summary>
+            <returns>The ordinal position of the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> in the view.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.Filter">
+            <summary>Gets or sets a callback that is used to determine whether an item is suited for inclusion in the view.</summary>
+            <returns>A method that is used to determine whether an item is suited for inclusion in the view.</returns>
+            <exception cref="T:System.NotSupportedException">The implementation does not support filtering.Simpler implementations do not support filtering and will throw a <see cref="T:System.NotSupportedException" />. Check the <see cref="P:System.Windows.Data.PagedCollectionView.CanFilter" /> property to test whether filtering is supported before assigning a non-null value.</exception>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:System.Windows.Data.PagedCollectionView.IsAddingNew" /> is true.-or-<see cref="P:System.Windows.Data.PagedCollectionView.IsEditingItem" /> is true.</exception>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.GroupDescriptions">
+            <summary>Gets a collection of <see cref="T:System.ComponentModel.GroupDescription" /> objects that describe how the items in the collection are grouped in the view.</summary>
+            <returns>A collection of <see cref="T:System.ComponentModel.GroupDescription" /> objects that describe how the items in the collection are grouped in the view.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.Groups">
+            <summary>Gets the top-level groups, constructed according to the descriptions specified in the <see cref="P:System.Windows.Data.PagedCollectionView.GroupDescriptions" /> property.</summary>
+            <returns>A read-only collection of the top-level groups or null if there are no groups.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.IsAddingNew">
+            <summary>Gets a value that indicates whether an <see cref="M:System.Windows.Data.PagedCollectionView.AddNew" /> transaction is in progress.</summary>
+            <returns>true if an <see cref="M:System.Windows.Data.PagedCollectionView.AddNew" /> transaction is in progress; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.IsCurrentAfterLast">
+            <summary>Gets a value that indicates whether the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> of the view is beyond the end of the collection.</summary>
+            <returns>true if the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> of the view is beyond the end of the collection; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.IsCurrentBeforeFirst">
+            <summary>Gets a value that indicates whether the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> of the view is before the start of the collection.</summary>
+            <returns>true if the <see cref="P:System.Windows.Data.PagedCollectionView.CurrentItem" /> of the view is before the start of the collection; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.IsEditingItem">
+            <summary>Gets a value that indicates whether an <see cref="M:System.Windows.Data.PagedCollectionView.EditItem(System.Object)" /> transaction is in progress.</summary>
+            <returns>true if an <see cref="M:System.Windows.Data.PagedCollectionView.EditItem(System.Object)" /> transaction is in progress; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.IsEmpty">
+            <summary>Gets a value that indicates whether the view is empty.</summary>
+            <returns>true if the view is empty; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.IsPageChanging">
+            <summary>Gets a value that indicates whether the page index is changing.</summary>
+            <returns>true if the page index is changing; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.Item(System.Int32)">
+            <summary>Gets the item at the specified index.</summary>
+            <returns>The item at the specified index.</returns>
+            <param name="index">The index of the item to be retrieved.</param>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.ItemCount">
+            <summary>Gets the minimum number of items known to be in the source collection that satisfy the current filter.</summary>
+            <returns>The minimum number of items known to be in the collection that satisfy the current filter.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.NeedsRefresh">
+            <summary>Gets a value that indicates whether this view needs to be refreshed.</summary>
+            <returns>true if the view needs to be refreshed; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.NewItemPlaceholderPosition">
+            <summary>Gets or sets a value that indicates whether to include a new item placeholder in the collection view, and where to include it.</summary>
+            <returns>This implementation always returns <see cref="F:System.ComponentModel.NewItemPlaceholderPosition.None" />.</returns>
+            <exception cref="T:System.ArgumentException">The value is not <see cref="F:System.ComponentModel.NewItemPlaceholderPosition.None" />.</exception>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.PageIndex">
+            <summary>Gets the zero-based index of the current page.</summary>
+            <returns>The zero-based index of the current page.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.PageSize">
+            <summary>Gets or sets the number of items to display on a page.</summary>
+            <returns>The number of items to display on a page.</returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">The page size is less than 0.</exception>
+            <exception cref="T:System.InvalidOperationException">The page size could not be changed because there is a new or edited item that could not be committed.</exception>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.SortDescriptions">
+            <summary>Gets a collection of <see cref="T:System.ComponentModel.SortDescription" /> objects that describe how the items in the collection are sorted in the view.</summary>
+            <returns>A collection of <see cref="T:System.ComponentModel.SortDescription" /> objects that describe how the items in the collection are sorted in the view.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.SourceCollection">
+            <summary>Gets the <see cref="T:System.Collections.IEnumerable" /> collection underlying this view.</summary>
+            <returns>The <see cref="T:System.Collections.IEnumerable" /> collection underlying this view.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PagedCollectionView.TotalItemCount">
+            <summary>Gets the total number of items in the view before paging is applied.</summary>
+            <returns>The total number of items in the view before paging is applied.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.HierarchicalCollectionView.#ctor(System.Collections.IEnumerable)">
+            <summary>Initializes a new instance of the <see cref="T:Intersoft.Client.Data.ComponentModel.HierarchicalCollectionView" /> class.</summary>
+            <param name="source">The source for the collection.</param>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.HierarchicalCollectionView.#ctor(System.Collections.IEnumerable,System.Boolean,System.Boolean)">
+            <summary>Initializes a new instance of the <see cref="T:Intersoft.Client.Data.ComponentModel.HierarchicalCollectionView" /> class and specifies whether the data is sorted and in group order.</summary>
+            <param name="source">The source for the collection.</param>
+            <param name="isDataSorted">Specifies whether the source is already sorted.</param>
+            <param name="isDataInGroupOrder">Specifies whether the source is already in the correct order for grouping.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="source" /> is null.</exception>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.HierarchicalCollectionView.Count">
+            <summary>Gets the number of records in the view after filtering, sorting, and paging.</summary>
+            <returns>The number of records in the view after filtering, sorting, and paging.</returns>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.CollectionViews.IFilterDescription">
+            <summary>
+            Defines data member for filter description.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute">
+            <summary>
+            Represents the attribute to define a property that will be displayed in UXPropertyGrid.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the PropertyMemberAttribute class. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.Category">
+            <summary>
+            Gets or sets the property category.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.Description">
+            <summary>
+            Gets or sets the property description.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.EditorType">
+            <summary>
+            Gets or sets the editor type for property.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.EditorTypeName">
+            <summary>
+            Gets or sets the editor type name for property.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.IsEditable">
+            <summary>
+            Gets or sets the value indicating whether the property is editable.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.MemberType">
+            <summary>
+            Gets or sets the property member type.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.SortOrder">
+            <summary>
+            Gets or sets the property sort order.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberAttribute.StringFormat">
+            <summary>
+            Gets or sets the property string format.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.CollectionViews.ICollectionViewGroup">
+            <summary>
+            Defines data member for collection view group.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.CollectionViews.ICollectionViewGroup.GetAggregateValues(System.Windows.Data.Binding)">
+            <summary>
+            Gets the aggregate value from the given binding expression.
+            </summary>
+            <param name="binding">Binding expression.</param>
+            <returns>Aggregate value.</returns>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.CollectionViews.ICollectionViewGroup.Aggregates">
+            <summary>
+            Gets hashtable contains aggregate values for this collection view group.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.CollectionViews.ICompositeFilterDescription">
+            <summary>
+            Defines data member for composite filter descriptions.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.CollectionViews.ICompositeFilterDescription.FilterDescriptions">
+            <summary>
+            Gets the composite filter description collection.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.AggregateValues">
+            <summary>
+            Represents class that store aggregate values from a group collection.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.AggregateValues.OnPropertyChanged(System.String)">
+            <summary>
+            Raised on property changed event.
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.AggregateValues.Avg">
+            <summary>
+            Gets or sets the average value.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.AggregateValues.Count">
+            <summary>
+            Gets or sets the count value.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.AggregateValues.Max">
+            <summary>
+            Gets or sets the max value.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.AggregateValues.Min">
+            <summary>
+            Gets or sets the min value.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.AggregateValues.Sum">
+            <summary>
+            Gets or sets the sum value.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.AggregateValues.PropertyChanged">
+            <summary>
+            Occurs when the property value is changed.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.IgnorePropertyMemberAttribute">
+            <summary>
+            Represents the attribute to define a property that will not be displayed in UXPropertyGrid.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.IgnorePropertyMemberAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the IgnorePropertyMemberAttribute class. 
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.PageDescriptor">
+            <summary>
+            Represent query descriptor for paging.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PageDescriptor.OnPropertyChanged(System.String)">
+            <summary>
+            Raised on property changed event.
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PageDescriptor.PageIndex">
+            <summary>
+            Gets or sets the paging index.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PageDescriptor.PageSize">
+            <summary>
+            Gets or sets the page size.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PageDescriptor.TotalItemCount">
+            <summary>
+            Gets or sets the total item count.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.Data.ComponentModel.PageDescriptor.PropertyChanged">
+            <summary>
+            Occurs when property value is changed.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.PropertyInfoExtensions">
+            <summary>
+            Provides various extensions methods for PropertyInfo
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PropertyInfoExtensions.GetAttribute``1(System.Reflection.MemberInfo)">
+            <summary>
+            Gets specific attribute of a member.
+            </summary>
+            <param name="info">Member info.</param>
+            <returns>Information about specific member's attribute.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PropertyInfoExtensions.IsNavigationProperty(System.Reflection.PropertyInfo)">
+            <summary>
+            Gets a value indicating whether the underlying property is a navigation property.
+            </summary>
+            <param name="info">Property info.</param>
+            <returns>true if the underlying property is a navigation property; otherwise, false.</returns>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.PropertyMemberMetadataAttribute">
+            <summary>
+            Represents the attribute to define the metadata of a marked class.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.PropertyMemberMetadataAttribute.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the PropertyMemberMetadataAttribute class. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.PropertyMemberMetadataAttribute.MetadataType">
+            <summary>
+            Gets or sets the metadata type
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs">
+            <summary>
+            Provides data for the ItemChanged event.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs.#ctor(System.Object,System.String)">
+            <summary>Initializes a new instance of the ItemChangedEventArgs class.</summary>
+            <param name="item">Related item.</param>
+            <param name="propertyName">Property changed.</param>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs.Item">
+            <summary>
+            Gets or sets the related item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs.PropertyName">
+            <summary>
+            Gets or sets the name of changed property.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs`1">
+            <summary>
+            Provides data for the ItemChanged event.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs`1.#ctor(`0,System.String)">
+            <summary>Initializes a new instance of the ItemChangedEventArgs class.</summary>
+            <param name="item">Related item.</param>
+            <param name="propertyName">Property changed.</param>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.ItemChangedEventArgs`1.Item">
+            <summary>
+            Gets or sets the related item.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.TypeExtensions.IsClass(System.Type)">
+            <summary>
+            Gets a value indicating whether the underlying type is a class. Not a value type, string, or interface. 
+            </summary>
+            <param name="type">The underlying type.</param>
+            <returns>true if the underlying type is a class; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.TypeExtensions.IsNumeric(System.Type)">
+            <summary>
+            Gets a value indicating whether the underlying type is a numeric.
+            </summary>
+            <param name="type">The underlying type.</param>
+            <returns>true if the underlying type is a numeric; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.TypeExtensions.IsEnumerable(System.Type)">
+            <summary>
+            Gets a value indicating whether the underlying type is an Enumerable.
+            </summary>
+            <param name="type">The underlying type.</param>
+            <returns>true if the underlying type is an Enumerable; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.TypeExtensions.IsCollection(System.Type)">
+            <summary>
+            Gets a value indicating whether the underlying type is a collection.
+            </summary>
+            <param name="type">The underlying type.</param>
+            <returns>true if the underlying type is a collection; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.Helper.GetType(System.String,System.String)">
+            <summary>
+            Get type with the specified name from specified assembly.
+            </summary>
+            <param name="assemblyName">The long form of the assembly name.</param>
+            <param name="typeName">The assembly-qualified name of the type to get.</param>
+            <returns>The type with the specified name. If the type is not found, return null.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.Helper.GetType(System.String)">
+            <summary>
+            Get type with the specified name from referenced assembly.
+            </summary>
+            <param name="typeName">The assembly-qualified name of the type to get.</param>
+            <returns>The type with the specified name. If the type is not found, return null.</returns>
+        </member>
+        <member name="M:Intersoft.Client.Data.ComponentModel.Helper.GetValue(System.Object,System.Windows.Data.Binding,System.Boolean)">
+            <summary>
+            Gets the value of the item using the provided binding info.
+            </summary>
+            <param name="item">Item.</param>
+            <param name="binding">Binding info.</param>
+            <param name="useConverter">Pass through converter</param>
+            <returns></returns>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.Properties.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.InvalidEnumArgumentException_InvalidEnumArgument">
+            <summary>
+              Looks up a localized string similar to The value of argument &apos;{0}&apos; ({1}) is invalid for Enum type &apos;{2}&apos;..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_CannotChangeColumnCollectionWhileAdjustingDisplayIndexes">
+            <summary>
+              Looks up a localized string similar to Column collection cannot be changed while adjusting display indexes..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_CannotChangeItemsWhenLoadingRows">
+            <summary>
+              Looks up a localized string similar to Items cannot be added, removed or reset while rows are loading or unloading..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ColumnCannotBeCollapsed">
+            <summary>
+              Looks up a localized string similar to Column cannot be collapsed..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ColumnCannotBeReassignedToDifferentUXGridView">
+            <summary>
+              Looks up a localized string similar to Column already belongs to a UXGridView instance and cannot be reassigned..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ColumnNotInThisUXGridView">
+            <summary>
+              Looks up a localized string similar to Provided column does not belong to this UXGridView..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ItemIsNotContainedInTheItemsSource">
+            <summary>
+              Looks up a localized string similar to The item is not contained in the ItemsSource..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_NoCurrentRow">
+            <summary>
+              Looks up a localized string similar to There is no current row.  Operation cannot be completed..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_NoOwningGrid">
+            <summary>
+              Looks up a localized string similar to There is no instance of UXGridView assigned to this {0}.  Operation cannot be completed..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_UnderlyingPropertyIsReadOnly">
+            <summary>
+              Looks up a localized string similar to {0} cannot be set because the underlying property is read only..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueCannotBeSetToInfinity">
+            <summary>
+              Looks up a localized string similar to {0} cannot be set to infinity..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueCannotBeSetToNAN">
+            <summary>
+              Looks up a localized string similar to {0} cannot be set to double.NAN..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueCannotBeSetToNull">
+            <summary>
+              Looks up a localized string similar to {0} cannot be set to a null value..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueIsNotAnInstanceOf">
+            <summary>
+              Looks up a localized string similar to The value is not an instance of {0}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueIsNotAnInstanceOfEitherOr">
+            <summary>
+              Looks up a localized string similar to The value is not an instance of {0} or {1}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueMustBeGreaterThanOrEqualTo">
+            <summary>
+              Looks up a localized string similar to {0} must be greater than or equal to {1}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueMustBeGTandLT">
+            <summary>
+              Looks up a localized string similar to {0} must be greater than {1} and less than {2}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueMustBeGTandLTE">
+            <summary>
+              Looks up a localized string similar to {0} must be greater than {1} and less than or equal to {2}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueMustBeGTEandLT">
+            <summary>
+              Looks up a localized string similar to {0} must be greater than or equal to {1} and less than {2}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueMustBeGTEandLTE">
+            <summary>
+              Looks up a localized string similar to {0} must be greater than or equal to {1} and less than or equal to {2}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueMustBeLessThan">
+            <summary>
+              Looks up a localized string similar to {0} must be less than {1}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridView_ValueMustBeLessThanOrEqualTo">
+            <summary>
+              Looks up a localized string similar to {0} must be less than or equal to {1}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewAutomationPeer_OperationCannotBePerformed">
+            <summary>
+              Looks up a localized string similar to Cannot perform the operation..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewColumnHeader_ContentDoesNotSupportUIElements">
+            <summary>
+              Looks up a localized string similar to Content does not support UIElement; use ContentTemplate instead..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewColumnHeaderAutomationPeer_Ascending">
+            <summary>
+              Looks up a localized string similar to ascending.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewColumnHeaderAutomationPeer_Descending">
+            <summary>
+              Looks up a localized string similar to descending.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewLength_InvalidUnitType">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid UXGridViewLengthUnitType..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewLengthConverter_CannotConvertFrom">
+            <summary>
+              Looks up a localized string similar to UXGridViewLengthConverter cannot convert from {0}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewLengthConverter_CannotConvertTo">
+            <summary>
+              Looks up a localized string similar to Cannot convert from UXGridViewLength to {0}..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewLengthConverter_InvalidUXGridViewLength">
+            <summary>
+              Looks up a localized string similar to Invalid UXGridViewLength..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewRow_InvalidRowIndexCannotCompleteOperation">
+            <summary>
+              Looks up a localized string similar to Invalid row index. Operation cannot be completed..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewRowGroupHeader_ItemCountPlural">
+            <summary>
+              Looks up a localized string similar to ({0} items).
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewRowGroupHeader_ItemCountSingular">
+            <summary>
+              Looks up a localized string similar to ({0} item).
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewRowGroupHeader_PropertyName">
+            <summary>
+              Looks up a localized string similar to {0}:.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewSelectedItemsCollection_CannotChangeSelectedItemsCollectionInSingleMode">
+            <summary>
+              Looks up a localized string similar to Can only change SelectedItems collection in Extended selection mode.  Use SelectedItem property in Single selection mode..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.Resource.UXGridViewTemplateColumn_MissingTemplateForType">
+            <summary>
+              Looks up a localized string similar to Missing template.  Cannot initialize {0}..
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.Expressions.ExpressionBuilderOptions">
+            <summary>
+            Represents options for expression builder.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.CancelEditNotSupported">
+            <summary>
+              Looks up a localized string similar to CancelEdit is not supported for the current edit item..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.CannotFilter">
+            <summary>
+              Looks up a localized string similar to The Filter property cannot be set when the CanFilter property returns false..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.ChangingPageSizeNotAllowedDuringAddOrEdit">
+            <summary>
+              Looks up a localized string similar to Changing the PageSize is not allowed during an AddNew or EditItem transaction..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.EnumeratorVersionChanged">
+            <summary>
+              Looks up a localized string similar to Collection was modified; enumeration operation cannot execute..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.IndexOutOfRange">
+            <summary>
+              Looks up a localized string similar to Index was out of range. Must be non-negative and less than the size of the collection..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.InvalidEnumArgument">
+            <summary>
+              Looks up a localized string similar to The value of argument &apos;{0}&apos; ({1}) is invalid for Enum type &apos;{2}&apos;..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.InvalidPageSize">
+            <summary>
+              Looks up a localized string similar to PageSize cannot have a negative value..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.NoCheckOrChangeWhenDeferred">
+            <summary>
+              Looks up a localized string similar to Cannot change or check the contents or current position of the PagedCollectionView while Refresh is being deferred..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.OperationNotAllowedDuringAddOrEdit">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; is not allowed during an AddNew or EditItem transaction..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.OperationNotAllowedDuringTransaction">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; is not allowed during a transaction started by &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.OperationNotAllowedForView">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; is not allowed for this view..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.PropertyNotReadable">
+            <summary>
+              Looks up a localized string similar to The property named &apos;{0}&apos; on type &apos;{1}&apos; cannot be read..
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Data.ComponentModel.Properties.PagedCollectionViewResources.RemoveNotSupported">
+            <summary>
+              Looks up a localized string similar to Remove/RemoveAt is not supported..
+            </summary>
+        </member>
+    </members>
+</doc>

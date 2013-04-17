@@ -1,0 +1,59 @@
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.dll.config
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.pdb
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\EntityFramework.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Core.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.Compat.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Linq.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Validation.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\EntityFramework.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Core.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.Compat.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Linq.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Validation.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.pdb
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.dll.config
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.pdb
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Core.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Linq.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Validation.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Core.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Linq.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Validation.xml
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.csprojResolveAssemblyReference.cache
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.dll
+C:\Users\Intersoft\Desktop\Yudi\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.pdb
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.dll.config
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.dll
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.pdb
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Core.dll
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.dll
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Linq.dll
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Validation.dll
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Core.xml
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.xml
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Linq.xml
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Validation.xml
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.csprojResolveAssemblyReference.cache
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.dll
+C:\Users\Intersoft\Desktop\Yudi\Without Compatibility\ClientUIDataApp5 - Copy (3)\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.pdb
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.dll.config
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.dll
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\ClientUIDataApp5.DomainModel.pdb
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Core.dll
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.dll
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Linq.dll
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Validation.dll
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Core.xml
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.EntityModel.xml
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Linq.xml
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\bin\Debug\IdeaBlade.Validation.xml
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.csprojResolveAssemblyReference.cache
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.dll
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5.DomainModel\obj\Debug\ClientUIDataApp5.DomainModel.pdb

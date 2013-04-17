@@ -1,0 +1,2583 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Intersoft.Client.UI.Aqua.UXDesktop</name>
+    </assembly>
+    <members>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.NavigationBarUIMode">
+            <summary>
+            Specifies the buttons to be displayed in the navigation bar within the navigation window control.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.NavigationBarUIMode.BackJournal">
+            <summary>
+            Displays only the back journal button.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.NavigationBarUIMode.BackForwardJournal">
+            <summary>
+            Displays back and forward journal buttons.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.NavigationBarUIMode.All">
+            <summary>
+            Displays all navigation buttons including Stop, Refresh and Home.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.WindowType">
+            <summary>
+            Specifies the different types of window that can be hosted by a desktop control such as UXDesktop.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowType.StandardWindow">
+            <summary>
+            A standard window.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowType.NavigationWindow">
+            <summary>
+            A window with built-in navigation features and UI.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowType.ToolWindow">
+            <summary>
+            A window with simple window features usually shown in modeless mode with smaller header.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowType.WizardWindow">
+            <summary>
+            A window with built-in wizard-style page navigation.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage">
+            <summary>
+            Specifies the icon that is displayed by a message box.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage.None">
+            <summary>
+            No icon is displayed.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage.Question">
+            <summary>
+            The message box displays a question mark icon.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage.Error">
+            <summary>
+            The message box displays an error icon.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage.Warning">
+            <summary>
+            The message box displays a warning icon.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage.Information">
+            <summary>
+            The message box displays an information icon.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage.Custom">
+            <summary>
+            The message box displays a custom icon specified in CustomImage property.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton">
+            <summary>
+            Specifies the buttons that are displayed on a message box. Used as an argument of the Show method.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton.OK">
+            <summary>
+            The message box displays an OK button.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton.OKCancel">
+            <summary>
+            The message box displays OK and Cancel buttons.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton.YesNoCancel">
+            <summary>
+            The message box displays Yes, No, and Cancel buttons.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton.YesNo">
+            <summary>
+            The message box displays Yes and No buttons.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton.Custom">
+            <summary>
+            The message box displays custom buttons specified by developers.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.DialogBoxMode">
+            <summary>
+            Specifies the modal behavior on a dialog box.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.DialogBoxMode.Modal">
+            <summary>
+            The dialog box is modal. Users cannot perform other tasks until the dialog box is closed.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.DialogBoxMode.Modeless">
+            <summary>
+            The dialog box is modeless. Users can still perform other tasks on other windows while the dialog box is displayed.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.DialogBoxMode.Normal">
+            <summary>
+            The dialog box is displayed without modal behaviors.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode">
+            <summary>
+            Specifies the resizing mode used during window resize operation.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.None">
+            <summary>
+            The window is not currently in resizing mode.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.N">
+            <summary>
+            The window is resizing toward the north direction.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.S">
+            <summary>
+            The window is resizing toward the south direction.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.W">
+            <summary>
+            The window is resizing toward the west direction.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.E">
+            <summary>
+            The window is resizing toward the east direction.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.NE">
+            <summary>
+            The window is resizing toward north east direction.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.NW">
+            <summary>
+            The window is resizing toward north west direction.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.SE">
+            <summary>
+            The window is resizing toward south east direction.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeHandleMode.SW">
+            <summary>
+            The window is resizing toward south west direction.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.WindowOperation">
+            <summary>
+            Specifies the operation that a window currently performing.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowOperation.Minimize">
+            <summary>
+            The window is performing minimize operation.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowOperation.Restore">
+            <summary>
+            The window is performing restore operation from minimize state.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowOperation.RestoreDown">
+            <summary>
+            The window is performing restore operation from maximize state.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowOperation.Maximize">
+            <summary>
+            The window is performing maximize operation.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowOperation.Resize">
+            <summary>
+            The window is performing resizing operation.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowOperation.Move">
+            <summary>
+            The window is performing move operation.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.ResizeDirection">
+            <summary>
+            Specifies the allowed resize direction in a window.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeDirection.AllDirections">
+            <summary>
+            The window can be resized from all 8 directions.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ResizeDirection.BottomRight">
+            <summary>
+            The window can be resized only from the bottom right direction, 
+            that is by dragging the resize handle in the bottom right corner of a window.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.ControlBoxPosition">
+            <summary>
+            Specifies the control box position of a window.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ControlBoxPosition.Left">
+            <summary>
+            The control box appears in the left position of a window.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ControlBoxPosition.Right">
+            <summary>
+            The control box appears in the right position of a window.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.StartupLocation">
+            <summary>
+            Determines the window location during startup.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.StartupLocation.Auto">
+            <summary>
+            The window location will be determined automatically.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.StartupLocation.CenterScreen">
+            <summary>
+            The window will be positioned in center relative to the screen.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.StartupLocation.CenterOwner">
+            <summary>
+            The window will be positioned in center relative to the owner/parent.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.WindowState">
+            <summary>
+            Specifies the state of a window.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowState.Normal">
+            <summary>
+            The window is in normal state.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowState.Minimized">
+            <summary>
+            The window is in minimized state.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowState.Maximized">
+            <summary>
+            The window is in maximized state.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.ContentMode">
+            <summary>
+            Specifies the content characteristic of a navigation window.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ContentMode.ContentPresenter">
+            <summary>
+            The navigation window displays inline content.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.ContentMode.Frame">
+            <summary>
+            The navigation window displays the content from a XAML page or an external source.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures">
+            <summary>
+            Specifies the flags that determine the capabilities and features of a window class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanMinimize">
+            <summary>
+            Determines whether a window supports minimize feature.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanMaximize">
+            <summary>
+            Determines whether a window supports maximize feature.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanClose">
+            <summary>
+            Determines whether a window supports closing.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanResize">
+            <summary>
+            Determines whether a window supports resizing.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanMove">
+            <summary>
+            Determines whether a window supports moving.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanNavigate">
+            <summary>
+            Determines whether a window supports navigation feature.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanDragDrop">
+            <summary>
+            Determines whether a window supports drag and drop feature.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanAutoArrange">
+            <summary>
+            Determines whether a window supports auto arrange feature.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanDisplayTitleBar">
+            <summary>
+            Determines whether a window can display title bar.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanDisplayControlBox">
+            <summary>
+            Determines whether a window can display control box.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanDisplayWindowCommands">
+            <summary>
+            Determines whether a window can display window commands such as minimize, maximize and close.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanHostToolBar">
+            <summary>
+            Determines whether a window can host tool bar.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanHostStatusBar">
+            <summary>
+            Determines whether a window can host status bar.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanHostNavigationBar">
+            <summary>
+            Determines whether a window can host navigation bar.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanBringToFront">
+            <summary>
+            Determines whether a window can be activated to the front of the z-order.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanSendToBack">
+            <summary>
+            Determines whether a window can be sent to the back of the z-order.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanActivate">
+            <summary>
+            Determines whether a window can be activated.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanModal">
+            <summary>
+            Determines whether a window supports modal feature.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanChangeBusyState">
+            <summary>
+            Determines whether a window can change its state to busy.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.CanHostApplication">
+            <summary>
+            Determines whether a window can load and host an application.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowFeatures.None">
+            <summary>
+            The window doesn't implement any of the window features.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox">
+            <summary>
+            Provides a dialog box with predefined message, icon and buttons used to obtain user input.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox">
+            <summary>
+            Provides a modal dialog box window to obtain user input.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow">
+            <summary>
+            Represents window interface that serves as a logical container for hosting user interface elements.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.#ctor">
+            <summary>
+            Creates a new instance of UXWindow class.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the UXWindow class with caption. 
+            </summary>
+            <param name="caption">The caption of the window.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.#ctor(System.String,System.Windows.Media.ImageSource)">
+            <summary>
+            Initializes a new instance of the UXWindow class with caption and icon.
+            </summary>
+            <param name="caption">The caption of the window.</param>
+            <param name="icon">The icon of the window.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Dispose">
+            <summary>
+            Called when the object is disposed.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InnerBorderThicknessProperty">
+            <summary>
+            Identifies the InnerBorderThickness dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InactiveBackgroundProperty">
+            <summary>
+            Identifies the InactiveBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InactiveBorderBrushProperty">
+            <summary>
+            Identifies the InactiveBorderBrush dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.DropShadowProperty">
+            <summary>
+            Identifies the DropShadow dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InactiveDropShadowProperty">
+            <summary>
+            Identifies the InactiveDropShadow dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderEffectProperty">
+            <summary>
+            Identifies the HeaderEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentBackgroundProperty">
+            <summary>
+            Identifies the ContentBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentBorderBrushProperty">
+            <summary>
+            Identifies the ContentBorderBrush dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentBorderThicknessProperty">
+            <summary>
+            Identifies the ContentBorderThickness dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InnerBackgroundProperty">
+            <summary>
+            Identifies the InnerBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InnerBorderBrushProperty">
+            <summary>
+            Identifies the InnerBorderBrush dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentMarginProperty">
+            <summary>
+            Identifies the ContentMargin dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderDisplayModeProperty">
+            <summary>
+            Identifies the HeaderDisplayMode dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderForegroundProperty">
+            <summary>
+            Identifies the HeaderForeground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IconProperty">
+            <summary>
+            Identifies the Icon dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IconLargeProperty">
+            <summary>
+            Identifies the IconLarge dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderHorizontalAlignmentProperty">
+            <summary>
+            Identifies the HeaderHorizontalAlignment dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderVerticalAlignmentProperty">
+            <summary>
+            Identifies the HeaderVerticalAlignment dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderMarginProperty">
+            <summary>
+            Identifies the HeaderMargin dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IconStretchProperty">
+            <summary>
+            Identifies the IconStretch dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InnerCornerRadiusProperty">
+            <summary>
+            Identifies the InnerCornerRadius dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderBackgroundProperty">
+            <summary>
+            Identifies the HeaderForeground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ResizeGripVisibilityResolvedProperty">
+            <summary>
+            Identifies the ResizeGripVisibilityResolved dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowNameProperty">
+            <summary>
+            Identifies the WindowName dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.StartupParametersProperty">
+            <summary>
+            Identifies the StartupParameters dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsClientVisibleProperty">
+            <summary>
+            Identifies the IsClientVisible dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsActiveProperty">
+            <summary>
+            Identifies the IsActive dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.RuntimeZIndexProperty">
+            <summary>
+            Identifies the RuntimeZIndex dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.LeftProperty">
+            <summary>
+            Identifies the Left dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.TopProperty">
+            <summary>
+            Identifies the Top dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowStateProperty">
+            <summary>
+            Identifies the WindowState dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanMinimizeProperty">
+            <summary>
+            Identifies the CanMinimize dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanMaximizeProperty">
+            <summary>
+            Identifies the CanMaximize dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanCloseProperty">
+            <summary>
+            Identifies the CanClose dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanMoveProperty">
+            <summary>
+            Identifies the HeaderDisplayMode dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanResizeProperty">
+            <summary>
+            Identifies the CanResize dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ControlBoxVisibilityProperty">
+            <summary>
+            Identifies the ControlBoxVisibility dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ShowInTaskbarProperty">
+            <summary>
+            Identifies the ShowInTaskbar dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.TopmostProperty">
+            <summary>
+            Identifies the Topmost dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowStartupLocationProperty">
+            <summary>
+            Identifies the WindowStartupLocation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ControlBoxPositionProperty">
+            <summary>
+            Identifies the ControlBoxPosition dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ResizeGripVisibilityProperty">
+            <summary>
+            Identifies the ResizeGripVisibility dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ResizeDirectionProperty">
+            <summary>
+            Identifies the ResizeDirection dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsBusyProperty">
+            <summary>
+            Identifies the IsBusy dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.BusyIndicatorTemplateProperty">
+            <summary>
+            Identifies the BusyIndicator dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.BusyTextProperty">
+            <summary>
+            Identifies the BusyText dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.MinimizeTextProperty">
+            <summary>
+            Identifies the MinimizeText dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.MaximizeTextProperty">
+            <summary>
+            Identifies the MaximizeText dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.RestoreDownTextProperty">
+            <summary>
+            Identifies the RestoreDownText dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CloseTextProperty">
+            <summary>
+            Identifies the CloseText dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.EnableSystemContextMenuProperty">
+            <summary>
+            Identifies the EnableSystemContextMenu dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.EnableAnimationProperty">
+            <summary>
+            Identifies the EnableAnimation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.BlockUIOnBusyProperty">
+            <summary>
+            Identifies the BlockUIOnBusy dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.DefaultFocusProperty">
+            <summary>
+            Identifies the DefaultFocus dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.PrimaryToolBarTemplateProperty">
+            <summary>
+            Identifies the PrimaryToolBarTemplate dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SecondaryToolBarTemplateProperty">
+            <summary>
+            Identifies the SecondaryToolBarTemplate dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CommandBarTemplateProperty">
+            <summary>
+            Identifies the CommandBarTemplate dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowButtonStyleProperty">
+            <summary>
+            Identifies the WindowButtonStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SystemContextMenuStyleProperty">
+            <summary>
+            Identifies the SystemContextMenu dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GetAttachedWindow(System.Windows.DependencyObject)">
+            <summary>
+            Gets the value of the AttachedWindow property of the specified object.
+            </summary>
+            <param name="obj">Object to query concerning the AttachedWindow property.</param>
+            <returns>Value of the AttachedWindow property.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SetAttachedWindow(System.Windows.DependencyObject,Intersoft.Client.Framework.IWindow)">
+            <summary>
+            Sets the value of the AttachedWindow property of the specified object.
+            </summary>
+            <param name="obj">Object to set the property on.</param>
+            <param name="value">Value to set.</param>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.AttachedWindowProperty">
+            <summary>
+            Gets or sets the value that represents an IWindow object to be attached.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXWindow when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Overridden.
+            </summary>
+            <param name="e">The mouse event argument.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnGotFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            Called before the GotFocus event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnCornerRadiusChanged">
+            <summary>
+            Called when the value of CornerRadius property changes.
+            </summary>        
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.DetachedEventHandlers">
+            <summary>
+            Detach built-in event handlers from control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnIsActiveChanged(System.Boolean,System.Boolean)">
+            <summary>
+            Called when the value of IsActive property is changed.
+            </summary>
+            <param name="oldValue">The old value of the IsActive property.</param>
+            <param name="newValue">The new value of the IsActive property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnActivated">
+            <summary>
+            Called when the window is activated.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnDeactivated">
+            <summary>
+            Called when the window is deactivated.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnRuntimeZIndexChanged(System.Int32)">
+            <summary>
+            Called when the value of RuntimeZIndex property is changed.
+            </summary>
+            <param name="newZIndex">The new z-index order to apply.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnLocationChange(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the window location is about to change.
+            </summary>
+            <param name="args">A DependencyPropertyChangedEventArgs containing the old and new value of the location.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnLocationChanged(System.Double,System.Double)">
+            <summary>
+            Called when the window location is changed.
+            </summary>
+            <param name="newX">The X-coordinate of the new window location.</param>
+            <param name="newY">The Y-coordinate of the new window location.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnWindowStateChanged(Intersoft.Client.UI.Aqua.UXDesktop.WindowState,Intersoft.Client.UI.Aqua.UXDesktop.WindowState)">
+            <summary>
+            Called when the window state is changed.
+            </summary>
+            <param name="fromState">The previous window state.</param>
+            <param name="toState">The new window state.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnIsClientVisibleChanged">
+            <summary>
+            Called when the value of IsClientVisible property has changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnTopmostChanged">
+            <summary>
+            Called when the value of Topmost property is changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnCanResizeChanged">
+            <summary>
+            Called when the CanResize property is changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnDataTemplateChanged(System.Windows.DependencyProperty)">
+            <summary>
+            Called when one of the data template properties defined in UXWindow is changed.
+            </summary>
+            <param name="dp">A DependencyProperty representing the changed data template.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnIsBusyChanged">
+            <summary>
+            Called when the value of IsBusy property is changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.OnClosedCore">
+            <summary>
+            Called when the window is closed and ready to be destroyed.
+            </summary>
+            <returns>If return value is true, the default implementation will be executed.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsFeatureSupported(System.Object)">
+            <summary>
+            Determines whether a feature is supported by this window class.
+            </summary>
+            <param name="feature">The feature to be queried, i.e, one of the values defined in WindowFeatures enumeration.</param>
+            <returns>True if the feature is supported.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GetImplementationRoot">
+            <summary>
+            Gets the implementation root of this control.
+            </summary>
+            <returns>A FrameworkElement which is the implementation root of the control.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GetDesktop">
+            <summary>
+            Returns the UXDesktop instance that hosts this window.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.BringToFront">
+            <summary>
+            Brings the window to the front of the z-order.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SendToBack">
+            <summary>
+            Sends the window to the back of the z-order.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.MoveTo(System.Double,System.Double)">
+            <summary>
+            Moves the window to the specified location.
+            </summary>
+            <param name="x">The horizontal position of the window.</param>
+            <param name="y">The vertical position of the window.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ResizeTo(System.Double,System.Double)">
+            <summary>
+            Resizes the window to the specified dimension.
+            </summary>
+            <param name="width">The new width dimension of the window.</param>
+            <param name="height">The new height dimension of the window.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Show">
+            <summary>
+            Displays the window.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Show(System.Windows.FrameworkElement)">
+            <summary>
+            Displays the window and attach it to a specified owner.
+            </summary>
+            <param name="owner">The owner of the window.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Close">
+            <summary>
+            Permanently close the window and releases all the resources allocated by the window.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Hide">
+            <summary>
+            Hides the window.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.UpdateVisualThumbnail">
+            <summary>
+            Updates the thumbnail of the current window's visual.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Minimize">
+            <summary>
+            Minimizes the window to the task bar. 
+            This method will take affect only when the TaskBar property of the window is assigned.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Restore">
+            <summary>
+            Restores the window from minimized or maximized state.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Maximize">
+            <summary>
+            Maximizes the window to the available screen real estate.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GetThumbnail(System.Boolean)">
+            <summary>
+            Returns an ImageSource that represents the thumbnail of the current window's visual.
+            </summary>
+            <param name="forceRefresh">Whether the thumbnail is forced to refresh.</param>
+            <returns>The ImageSource of the thumbnail representing the current window's visual.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GetCurrentWindowState">
+            <summary>
+            Gets the data that represents the current window state.
+            </summary>
+            <returns>A WindowStateData object.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GetWindowHost(System.Windows.UIElement)">
+            <summary>
+            Returns a reference to the IWindow object that hosts the content tree within which the UIElement is located.
+            </summary>
+            <param name="element">The UIElement.</param>
+            <returns>A IWindow object.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GetElement(System.String)">
+            <summary>
+            Gets the element of the specified part name.
+            </summary>
+            <param name="partName">The name of which element to be retrieved.</param>
+            <returns>Returns a DependencyObject.</returns>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentPresenter">
+            <summary>
+            Gets the content presenter element of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentElement">
+            <summary>
+            Gets the container element of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.RootElement">
+            <summary>
+            Gets the root element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.TitleBar">
+            <summary>
+            Gets the title bar element of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SystemIconElement">
+            <summary>
+            Gets the system icon element of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowContextMenu">
+            <summary>
+            Gets the window context menu.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ParentControl">
+            <summary>
+            Gets the visual parent control of this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Owner">
+            <summary>
+            Gets the control that owns this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SupportedFeatures">
+            <summary>
+            Represents the windowing features supported by this control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowID">
+            <summary>
+            Specifies the unique identifier (UID) for this window. 
+            This property is not intended to be set directly by developers.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.StartupParameters">
+            <summary>
+            Gets the custom data or parameters that transferred by caller during startup process.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CurrentApplication">
+            <summary>
+            Gets the current application source associated to this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsActive">
+            <summary>
+            Gets or sets the active state of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.RuntimeZIndex">
+            <summary>
+            Gets or sets the z-index order of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Left">
+            <summary>
+            Gets or sets the left position of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowName">
+            <summary>
+            Gets or sets the name that identifies this window when integrated with desktop and task bar.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Top">
+            <summary>
+            Gets or sets the top position of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsBusy">
+            <summary>
+            Gets or sets the busy state of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsClientVisible">
+            <summary>
+            Specifies whether this window is visible at runtime.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GroupName">
+            <summary>
+            Specifies the group name of this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsClosed">
+            <summary>
+            Determines whether this window has been closed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsDragged">
+            <summary>
+            Determines whether this window is being dragged.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsResizing">
+            <summary>
+            Determines whether this window is being resized.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ResizeMode">
+            <summary>
+            Gets the current resizing mode.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.DefaultFocus">
+            <summary>
+            Specifies the default UI control to be focused when the window is shown.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InactiveBackground">
+            <summary>
+            Gets or sets the brush to apply to the background element of an inactive window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InactiveBorderBrush">
+            <summary>
+            Gets or sets the brush to apply to the border element of an inactive window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.DropShadow">
+            <summary>
+            Gets or sets the drop shadow effect applied to an active window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InactiveDropShadow">
+            <summary>
+            Gets or sets the drop shadow effect applied to an inactive window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderEffect">
+            <summary>
+            Gets or sets the effect to apply to the header element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentBackground">
+            <summary>
+            Gets or sets the brush to apply to the background of the window's content.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentBorderBrush">
+            <summary>
+            Gets or sets the brush to apply to the border of the window's content.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InnerBackground">
+            <summary>
+            Gets or sets the brush to apply to the background of the window's inner border.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InnerBorderBrush">
+            <summary>
+            Gets or sets the brush to apply to the border of the window's inner border.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InnerBorderThickness">
+            <summary>
+            Gets or sets the value that indicates the thickness of the window's inner border.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentBorderThickness">
+            <summary>
+            Gets or sets the border thickness of the window's content element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ContentMargin">
+            <summary>
+            Gets or sets the margin of the window's content element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.InnerCornerRadius">
+            <summary>
+            Inner corner radius.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderForeground">
+            <summary>
+            Represents the brush that applies to the text color of the header element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderHorizontalAlignment">
+            <summary>
+            Gets or sets the horizontal alignment of the control's header content.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderVerticalAlignment">
+            <summary>
+            Gets or sets the vertical alignment of the window's header element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderMargin">
+            <summary>
+            Gets or sets the margin of the window's header.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderBackground">
+            <summary>
+            Gets or sets the brush that applies to the background of the window's header.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.HeaderDisplayMode">
+            <summary>
+            Specifies the display mode of the content presentation.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.BlockUIOnBusy">
+            <summary>
+            Gets or sets a value that indicates whether the UI should be blocked when the window is in busy mode, i.e, loading data or navigating.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowState">
+            <summary>
+            Gets or sets the initial state when the window is first displayed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IconStretch">
+            <summary>
+            Gets or sets a value that determines the stretching characteristic of the Icon image.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Icon">
+            <summary>
+            Gets or sets an image source representing the icon of the window. 
+            The recommended image size for Icon is 16x16.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IconLarge">
+            <summary>
+            Gets or sets the large version of the window's icon which commonly used in task bar or other UI that requires large icon display.
+            The recommended image size for IconLarge is 48x48.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanMinimize">
+            <summary>
+            Gets or sets a value indicating whether the window can be minimized to task bar.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanMaximize">
+            <summary>
+            Gets or sets a value indicating whether the window can be maximized.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanClose">
+            <summary>
+            Gets or sets a value indicating whether the window can be closed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanMove">
+            <summary>
+            Gets or sets a value indicating whether the window can be moved.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CanResize">
+            <summary>
+            Gets or sets a value indicating whether the window can be resized.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ControlBoxVisibility">
+            <summary>
+            Specifies whether the control box UI of the window is visible or hidden.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ShowInTaskbar">
+            <summary>
+            Gets or sets a value that indicates whether the window has a task bar button when opened.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Topmost">
+            <summary>
+            Gets or sets a value that indicates whether the window appears in the topmost z-order.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowStartupLocation">
+            <summary>
+            Gets or sets a value that indicates how the window should be positioned during startup.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ControlBoxPosition">
+            <summary>
+            Gets or sets a value that indicates the position of the window's control box.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ResizeGripVisibility">
+            <summary>
+            Gets or sets a value indicating whether the window's resize visual hint is visible.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ResizeDirection">
+            <summary>
+            Get or sets a value that controls the direction in which a window can be resized.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.EnableSystemContextMenu">
+            <summary>
+            Gets or sets a value indicating whether the built-in window context menu is enabled.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ResizeGripVisibilityResolved">
+            <summary>
+            The calculated value of ResizeGripVisibility used for XAML binding.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.EnableAnimation">
+            <summary>
+            Gets or sets a value indicating whether the window animation should be used when processing certain window operations
+            such as minimize, close, etc.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.BusyText">
+            <summary>
+            Specifies the caption text that displayed when the window is busy.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.MinimizeText">
+            <summary>
+            Specifies the tooltip text for the minimize button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.MaximizeText">
+            <summary>
+            Specifies the tooltip text for the maximize button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.RestoreDownText">
+            <summary>
+            Specifies the tooltip text for the restore button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CloseText">
+            <summary>
+            Specifies the tooltip text for the close button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.PrimaryToolBarTemplate">
+            <summary>
+            Gets or sets the template that represents toolbar elements which is placed in the window's primary toolbar area.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SecondaryToolBarTemplate">
+            <summary>
+            Gets or sets the template that represents toolbar elements which is placed in the window's secondary toolbar area.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.CommandBarTemplate">
+            <summary>
+            Gets or sets the template that represents command bar which is placed in the bottom edge of the content area.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.BusyIndicatorTemplate">
+            <summary>
+            Gets or sets the template that represents the busy indicator when the <see cref="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.IsBusy"/> is true.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowButtonStyle">
+            <summary>
+            Gets or sets the style to apply to the window's option buttons.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SystemContextMenuStyle">
+            <summary>
+            Gets or sets the style to apply to the system context menu.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Intersoft#Client#Framework#IWindow#Text">
+            <summary>
+            The caption text of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Intersoft#Client#Framework#IWindow#Icon">
+            <summary>
+            The icon of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Intersoft#Client#Framework#IWindow#Thumbnail">
+            <summary>
+            The thumbnail of the window.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Opening">
+            <summary>
+            Occurs when a window is about to open for the first time.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Opened">
+            <summary>
+            Occurs when a window is opened for the first time.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Closing">
+            <summary>
+            Occurs when a window is about to close.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Closed">
+            <summary>
+            Occurs when a window is closed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Destroyed">
+            <summary>
+            Occurs when a window is permanently closed and destroyed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Created">
+            <summary>
+            Occurs when a window is created and all required window resources are loaded.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Activated">
+            <summary>
+            Occurs when a window becomes the foreground window.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Reactivated">
+            <summary>
+            Occurs when a window is reactivated from an external ApplicationLaunch command or API.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Deactivated">
+            <summary>
+            Occurs when a window becomes a background window.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowStateChanging">
+            <summary>
+            Occurs when the state of the window is about to change.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.WindowStateChanged">
+            <summary>
+            Occurs when the state of the window is changed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Moved">
+            <summary>
+            Occurs when a window is moved.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.Resized">
+            <summary>
+            Occurs when a window is resized.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.SystemContextMenu">
+            <summary>
+            Occurs when the context menu is requested.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.BusyChanged">
+            <summary>
+            Occurs when the busy state of the window is changed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.GotKeyboardFocus">
+            <summary>
+            Occurs when the window or a control in the window receives focus from keyboard device.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.LostKeyboardFocus">
+            <summary>
+            Occurs when the window or a control in the window loses its keyboard focus.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ApplicationID">
+            <summary>
+            Gets the unique identifier that represents the application associated to this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindow.ApplicationUri">
+            <summary>
+            Gets the unique resource identifier (URI) of the application associated to this window.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.#ctor">
+            <summary>
+            Creates a new instance of UXDialogBox class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.DialogBoxModeProperty">
+            <summary>
+            Identifies the DialogBoxMode dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.OverlayBackgroundProperty">
+            <summary>
+            Identifies the OverlayBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.DialogResultProperty">
+            <summary>
+            Identifies the DialogResult dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.AutoCloseDialogProperty">
+            <summary>
+            Identifies the AutoCloseDialog dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXDialogBox when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.OnIsClientVisibleChanged">
+            <summary>
+            Called when the client visibility state is changed. Overridden.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.Dispose">
+            <summary>
+            Overidden.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.ShowDialog(Intersoft.Client.Framework.IWindow,System.Action{Intersoft.Client.Framework.DialogResult})">
+            <summary>
+            Show the dialog box to the foreground window.
+            </summary>
+            <param name="owner">The owner of the dialog box. When specified, the dialog box will appear centered against the owner.</param>
+            <param name="closeCallback">The callback that invoked when the dialog box is closed.</param>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.DialogBoxMode">
+            <summary>
+            Specifies the dialog box modal behavior.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.OverlayBackground">
+            <summary>
+            Gets or sets the brush used to paint the overlay background.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.DialogResult">
+            <summary>
+            Gets or sets the value that represents the result of the dialog box.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.AutoCloseDialog">
+            <summary>
+            Gets or sets the value that indicates whether the dialog box should be automatically closed when the <see cref="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.DialogResult"/> property is set to a valid value.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBox.DialogClosed">
+            <summary>
+            Occurs when the dialog box is closed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.#ctor">
+            <summary>
+            Creates a new instance of UXMessageBox class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.MessageProperty">
+            <summary>
+            Identifies the Message dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.ImagesBaseUriProperty">
+            <summary>
+            Identifies the ImagesBaseUri dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXMessageBox when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.Dispose">
+            <summary>
+            Called when the message box is disposed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the Measure pass of Silverlight layout.
+            </summary>
+            <param name="availableSize">
+            The available size that this object can give to child objects. Infinity can be specified as a value to indicate that the object will size to whatever content is available.
+            </param>
+            <returns>The size that this object determines it needs during layout, based on its calculations of child object allotted sizes.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.OnIsClientVisibleChanged">
+            <summary>
+            Called when the IsClientVisible property is changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.Show(Intersoft.Client.Framework.IWindow,System.String,System.Action{Intersoft.Client.Framework.DialogResult})">
+            <summary>
+            Displays a message box with simple message in front of the specified window. 
+            </summary>
+            <param name="window">A Window that represents the owner window of the message box.</param>
+            <param name="message">A String that specifies the text to display.</param>
+            <param name="resultCallback">An Action delegate that will be called when the message box is closed. </param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.Show(Intersoft.Client.Framework.IWindow,System.String,System.String,System.Action{Intersoft.Client.Framework.DialogResult})">
+            <summary>
+            Displays a message box with simple message and title bar caption in front of the specified window. 
+            </summary>
+            <param name="window">A Window that represents the owner window of the message box.</param>
+            <param name="message">A String that specifies the text to display.</param>
+            <param name="caption">A String that specifies the title bar caption to display.</param>
+            <param name="resultCallback">An Action delegate that will be called when the message box is closed. </param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.Show(Intersoft.Client.Framework.IWindow,System.String,System.String,Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton,System.Action{Intersoft.Client.Framework.DialogResult})">
+            <summary>
+            Displays a message box in front of the specified window. 
+            The message box displays a message, title bar caption and predefined buttons.
+            </summary>
+            <param name="window">A Window that represents the owner window of the message box.</param>
+            <param name="message">A String that specifies the text to display.</param>
+            <param name="caption">A String that specifies the title bar caption to display.</param>
+            <param name="button">A MessageBoxButton value that specifies which button or buttons to display.</param>
+            <param name="resultCallback">An Action delegate that will be called when the message box is closed. </param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.Show(Intersoft.Client.Framework.IWindow,System.String,System.String,Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton,Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage,System.Action{Intersoft.Client.Framework.DialogResult})">
+            <summary>
+            Displays a message box in front of the specified window. 
+            The message box displays a message, title bar caption, button and icon; and it also returns a result.
+            </summary>
+            <param name="window">A Window that represents the owner window of the message box.</param>
+            <param name="message">A String that specifies the text to display.</param>
+            <param name="caption">A String that specifies the title bar caption to display.</param>
+            <param name="button">A MessageBoxButton value that specifies which button or buttons to display.</param>
+            <param name="image">A MessageBoxImage value that specifies the icon to display.</param>
+            <param name="resultCallback">An Action delegate that will be called when the message box is closed. </param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.Show(Intersoft.Client.Framework.IWindow,System.String,System.String,Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton,Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage,Intersoft.Client.Framework.DialogResult,System.Action{Intersoft.Client.Framework.DialogResult})">
+            <summary>
+            Displays a message box in front of the specified window. 
+            The message box displays a message, title bar caption, button, and icon; and it also returns a result.
+            </summary>
+            <param name="window">A Window that represents the owner window of the message box.</param>
+            <param name="message">A String that specifies the text to display.</param>
+            <param name="caption">A String that specifies the title bar caption to display.</param>
+            <param name="button">A MessageBoxButton value that specifies which button or buttons to display.</param>
+            <param name="image">A MessageBoxImage value that specifies the icon to display.</param>
+            <param name="result">A DialogBoxResult value that specifies the default dialog result of the message box.</param>
+            <param name="resultCallback">An Action delegate that will be called when the message box is closed. </param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.Show(Intersoft.Client.Framework.IWindow,System.String,System.String,Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxButton,Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxImage,Intersoft.Client.Framework.DialogResult,Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions,System.Action{Intersoft.Client.Framework.DialogResult})">
+            <summary>
+            Displays a message box in front of the specified window. 
+            The message box displays a message, title bar caption, button, icon and options; and it also returns a result.
+            </summary>
+            <param name="window">A Window that represents the owner window of the message box.</param>
+            <param name="message">A String that specifies the text to display.</param>
+            <param name="caption">A String that specifies the title bar caption to display.</param>
+            <param name="button">A MessageBoxButton value that specifies which button or buttons to display.</param>
+            <param name="image">A MessageBoxImage value that specifies the icon to display.</param>
+            <param name="result">A DialogBoxResult value that specifies the default dialog result of the message box.</param>
+            <param name="options">A MessageBoxOptions that represents the appearances options.</param>
+            <param name="resultCallback">An Action delegate that will be called when the message box is closed. </param>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.Message">
+            <summary>
+            Gets or sets the message to be displayed in the message box.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXMessageBox.ImagesBaseUri">
+            <summary>
+            Specifies the base Uri that will be used to locate message box images.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions">
+            <summary>
+            Provides options for customizing UXMessageBox's appearance.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions.ImagesBaseUri">
+            <summary>
+            Specifies the base Uri that will be used to locate message box images.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions.CustomImage">
+            <summary>
+            Specifies the custom image for the message box's icon.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions.CustomButtons">
+            <summary>
+            Provides a collection of custom buttons that appear in the message box.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions.Style">
+            <summary>
+            Specifies the message box's style.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions.CommandBarStyle">
+            <summary>
+            Specifies the command bar's style.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions.CommandButtonStyle">
+            <summary>
+            Specifies the command button' style.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions.MaxWidth">
+            <summary>
+            Specifies the maximum width applied when the message box is shown.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.MessageBoxOptions.WindowStartupLocation">
+            <summary>
+            Specifies the startup location of the message box.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome">
+            <summary>
+            Provides a simple window with styled chrome that serves as a logical container for user interface elements.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.#ctor">
+            <summary>
+            Creates a new instance of UXWindowChrome class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.WindowNameProperty">
+            <summary>
+            Identifies the WindowName dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.IsActiveProperty">
+            <summary>
+            Identifies the IsActive dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.RuntimeZIndexProperty">
+            <summary>
+            Identifies the RuntimeZIndex dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.LeftProperty">
+            <summary>
+            Identifies the Left dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.TopProperty">
+            <summary>
+            Identifies the Top dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.IsClientVisibleProperty">
+            <summary>
+            Identifies the IsClientVisible dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InactiveBackgroundProperty">
+            <summary>
+            Identifies the InactiveBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InactiveBorderBrushProperty">
+            <summary>
+            Identifies the InactiveBorderBrush dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.DropShadowProperty">
+            <summary>
+            Identifies the DropShadow dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InactiveDropShadowProperty">
+            <summary>
+            Identifies the InactiveDropShadow dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ContentBackgroundProperty">
+            <summary>
+            Identifies the ContentBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ContentBorderBrushProperty">
+            <summary>
+            Identifies the ContentBorderBrush dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ContentBorderThicknessProperty">
+            <summary>
+            Identifies the ContentBorderThickness dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InnerBackgroundProperty">
+            <summary>
+            Identifies the InnerBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InnerBorderBrushProperty">
+            <summary>
+            Identifies the InnerBorderBrush dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ContentMarginProperty">
+            <summary>
+            Identifies the ContentMargin dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.EnableAnimationProperty">
+            <summary>
+            Identifies the EnableAnimation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.WindowStartupLocationProperty">
+            <summary>
+            Identifies the WindowStartupLocation dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXWindowChrome when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ChangeVisualState">
+            <summary>
+            Change the visual state.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.OnIsActiveChanged(System.Boolean,System.Boolean)">
+            <summary>
+            Called when the value of IsActive property is changed.
+            </summary>
+            <param name="oldValue">The old value of the IsActive property.</param>
+            <param name="newValue">The new value of the IsActive property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.OnActivated">
+            <summary>
+            Called when the window is activated.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.OnDeactivated">
+            <summary>
+            Called when the window is deactivated.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.OnRuntimeZIndexChanged(System.Int32)">
+            <summary>
+            Called when the value of RuntimeZIndex property is changed.
+            </summary>
+            <param name="newZIndex">The new z-index order to apply.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.OnLocationChange(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the window location is about to change.
+            </summary>
+            <param name="args">A DependencyPropertyChangedEventArgs containing the old and new value of the location.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.OnLocationChanged(System.Double,System.Double)">
+            <summary>
+            Called when the window location is changed.
+            </summary>
+            <param name="newX">The X-coordinate of the new window location.</param>
+            <param name="newY">The Y-coordinate of the new window location.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.OnIsClientVisibleChanged">
+            <summary>
+            Called when the value of IsClientVisible property has changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.IsFeatureSupported(System.Object)">
+            <summary>
+            Determines whether a feature is supported by this window class.
+            </summary>
+            <param name="feature">The feature to be queried, i.e, one of the values defined in WindowFeatures enumeration.</param>
+            <returns>True if the feature is supported.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.GetImplementationRoot">
+            <summary>
+            Gets the implementation root of this control.
+            </summary>
+            <returns>A FrameworkElement which is the implementation root of the control.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.GetDesktop">
+            <summary>
+            Returns the UXDesktop instance that hosts this window.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Show">
+            <summary>
+            Displays the window.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Close">
+            <summary>
+            Permanently close the window and releases all the resources allocated by the window.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Hide">
+            <summary>
+            Hides the window.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Dispose">
+            <summary>
+            Called when the object is disposed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.WindowName">
+            <summary>
+            Gets or sets the name that identifies this window when integrated with desktop and task bar.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ParentControl">
+            <summary>
+            Gets the visual parent control of this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Owner">
+            <summary>
+            Gets the control that owns this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.SupportedFeatures">
+            <summary>
+            Represents the windowing features supported by this control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.WindowID">
+            <summary>
+            Specifies the unique identifier (UID) for this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.IsActive">
+            <summary>
+            Gets or sets the active state of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Left">
+            <summary>
+            Gets or sets the left position of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Top">
+            <summary>
+            Gets or sets the top position of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.RuntimeZIndex">
+            <summary>
+            Gets or sets the z-index order of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.IsClientVisible">
+            <summary>
+            Specifies whether this window is visible at runtime.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.IsClosed">
+            <summary>
+            Determines whether this window has been closed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.GroupName">
+            <summary>
+            Specifies the group name of this window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InactiveBackground">
+            <summary>
+            Gets or sets the brush to apply to the background element of an inactive window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InactiveBorderBrush">
+            <summary>
+            Gets or sets the brush to apply to the border element of an inactive window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.DropShadow">
+            <summary>
+            Gets or sets the drop shadow effect applied to an active window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InactiveDropShadow">
+            <summary>
+            Gets or sets the drop shadow effect applied to an inactive window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ContentBackground">
+            <summary>
+            Gets or sets the brush to apply to the background of the window's content.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ContentBorderBrush">
+            <summary>
+            Gets or sets the brush to apply to the border of the window's content.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InnerBackground">
+            <summary>
+            Gets or sets the brush to apply to the background of the window's inner border.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.InnerBorderBrush">
+            <summary>
+            Gets or sets the brush to apply to the border of the window's inner border.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ContentBorderThickness">
+            <summary>
+            Gets or sets the border thickness of the window's content element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.ContentMargin">
+            <summary>
+            Gets or sets the margin of the window's content element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.EnableAnimation">
+            <summary>
+            Gets or sets a value indicating whether the window animation should be used when processing certain window operations
+            such as minimize, close, etc.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.WindowStartupLocation">
+            <summary>
+            Gets or sets a value that indicates how the window should be positioned during startup.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Opening">
+            <summary>
+            Occurs when a window is about to open for the first time.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Opened">
+            <summary>
+            Occurs when a window is opened for the first time.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Closing">
+            <summary>
+            Occurs when a window is about to close.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Closed">
+            <summary>
+            Occurs when a window is closed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Destroyed">
+            <summary>
+            Occurs when a window is permanently closed and destroyed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Created">
+            <summary>
+            Occurs when a window is created and all required window resources are loaded.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Activated">
+            <summary>
+            Occurs when a window becomes the foreground window.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXWindowChrome.Deactivated">
+            <summary>
+            Occurs when a window becomes a background window.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop">
+            <summary>
+            Represents the desktop user interface that can host a collection of IWindow elements.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.#ctor">
+            <summary>
+            Creates a new instance of UXDesktop class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ActiveWindowIndexProperty">
+            <summary>
+            Identifies the ActiveWindowIndex dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ActiveWindowProperty">
+            <summary>
+            Identifies the ActiveWindow dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.CascadingSpaceProperty">
+            <summary>
+            Identifies the CascadingSpace dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.EnableWindowAnimationProperty">
+            <summary>
+            Identifies the EnableWindowAnimation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.TaskBarProperty">
+            <summary>
+            Identifies the TaskBar dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.UriMapperProperty">
+            <summary>
+            Identifies the UriMapper dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ActiveWindowChangingEvent">
+            <summary>
+            Occurs when the active window is about to change.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ActiveWindowChangedEvent">
+            <summary>
+            Occurs when the active window is changed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXDesktop when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.GetContainerForItemOverride">
+            <summary>
+            Creates or identifies the element that is used to display the given item.
+            </summary>
+            <returns>The element that is used to display the given item.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.IsItemItsOwnContainerOverride(System.Object)">
+            <summary>
+            Determines if the specified item is (or is eligible to be) its own container.
+            </summary>
+            <param name="item">The item to check.</param>
+            <returns>true if the item is (or is eligible to be) its own container; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)">
+            <summary>
+            Prepares the specified element to display the specified item.
+            </summary>
+            <param name="element">The container element used to display the specified item.</param>
+            <param name="item">The item to display.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the Arrange pass of Silverlight layout.
+            </summary>
+            <param name="finalSize">
+            The final area within the parent that this object should use to arrange itself and its children.
+            </param>
+            <returns>The actual size used once the element is arranged.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.OnItemsChanged(System.Object,System.Windows.Controls.Primitives.ItemsChangedEventArgs)">
+            <summary>
+            Called when the value of the System.Windows.Controls.ItemsControl.Items property changes.
+            </summary>
+            <param name="sender">The System.Object that raised the event.</param>
+            <param name="e">NotifyCollectionChangedEventArgs that contains the event data</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ActivateWindow(System.Int32)">
+            <summary>
+            Activates the window given its index to the foreground.
+            </summary>
+            <param name="index">The window's index to be activated.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ActivateWindow(Intersoft.Client.Framework.IWindow)">
+            <summary>
+            Activates the specified window to the foreground.
+            </summary>
+            <param name="item">The window object to be activated.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.GetVisibleWindows">
+            <summary>
+            Gets the collection of visible windows in the UXDesktop.
+            </summary>
+            <returns>A list of visible windows that implement IWindow interface.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.RearrangeWindows">
+            <summary>
+            Invalidates and re-arrange the windows in the UXDesktop.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.CloseWindow(Intersoft.Client.Framework.IWindow)">
+            <summary>
+            Close the specified window.
+            </summary>
+            <param name="item">The window to be closed.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.OpenNewNavigationWindow(System.Uri,System.String)">
+            <summary>
+            Create a new navigation window, navigate to the specified URI and show the window to the foreground.
+            </summary>
+            <param name="uri">The URI for the navigation source.</param>
+            <param name="windowName">The name associated with the navigation window.</param>
+            <returns>A UXNavigationWindow object.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.OpenNewNavigationWindow(Intersoft.Client.Framework.WindowOptions)">
+            <summary>
+            Create a new navigation window based on the specified options and show the window to the foreground.
+            </summary>
+            <param name="options">The window options that represents the navigation source, navigation bar visibility and other window settings such as Title, Icon and more.</param>
+            <returns>A UXNavigationWindow object.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.LaunchApplication(System.Uri)">
+            <summary>
+            Launches the application given its URI locator. If the application is not yet downloaded, 
+            UXDesktop will automatically download, install and then run the application.
+            </summary>
+            <param name="uri">The URI of the application to be launched.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.LaunchApplication(System.Uri,System.Object)">
+            <summary>
+            Launches the application given its URI locator. If the application is not yet downloaded, 
+            UXDesktop will automatically download, install and then run the application.
+            </summary>
+            <param name="uri">The URI of the application to be launched.</param>
+            <param name="parameter">Custom data/parameter to be passed to the target application during startup.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.LaunchApplication(System.Uri,System.Boolean)">
+            <summary>
+            Launches the application given its URI locator. If the application is not yet downloaded, 
+            UXDesktop will automatically download, install and then run the application.
+            </summary>
+            <param name="uri">The URI of the application to be launched.</param>
+            <param name="forceSingleInstance">When set to true, the application will not be launched if an existing instance is already existed.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.GetShell">
+            <summary>
+            Gets the UXShell instance that manages the application lifecycle.
+            </summary>
+            <returns>A UXShell object.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.FindWindow(System.String)">
+            <summary>
+            Returns the <see cref="T:Intersoft.Client.Framework.IWindow"/> that matches the specified name in this control.
+            </summary>
+            <param name="name">The name of the window to find.</param>
+            <returns>A <see cref="T:Intersoft.Client.Framework.IWindow"/> object.</returns>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ActiveWindowIndex">
+            <summary>
+            Gets or sets the value that indicates the active window index.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.ActiveWindow">
+            <summary>
+            Gets the currently active window in UXDesktop.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.CascadingSpace">
+            <summary>
+            Specifies the item spacing for cascading window arrangement.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.Current">
+            <summary>
+            Gets the current instance of UXDesktop.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.EnableWindowAnimation">
+            <summary>
+            Determines whether window animations such as minimize and maximize should be enabled.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.TaskBar">
+            <summary>
+            Specifies the taskbar control that implements ITaskBar interface to manage window state, represent and identify running windows.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDesktop.UriMapper">
+            <summary>
+            Gets or sets the UriMapper object to provide URI mapping capability. 
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBoxEventHandler">
+            <summary>
+            Represents the method that will handle the UXDialogBox event.
+            </summary>
+            <param name="sender">The object where the event handler is attached.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBoxEventArgs">
+            <summary>
+            Provides data for UXDialog event.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXDialogBoxEventArgs.DialogResult">
+            <summary>
+            Gets the DialogResult of this dialog box.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow">
+            <summary>
+            Represents a window interface with built-in navigation frame, navigation bar and window host integration.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.#ctor">
+            <summary>
+            Creates a new instance of UXNavigationWindow class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.SourceProperty">
+            <summary>
+            Identifies the Source dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigationBarVisibilityProperty">
+            <summary>
+            Identifies the NavigationBarVisibility dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.UriMapperProperty">
+            <summary>
+            Identifies the UriMapper dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigatorStyleProperty">
+            <summary>
+            Identifies the NavigatorStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.EnableWindowHostIntegrationProperty">
+            <summary>
+            Identifies the EnableWindowHostIntegration dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigationBarUIModeProperty">
+            <summary>
+            Identifies the NavigationBarUIMode dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXNavigationWindow when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.AttachEventHandlers">
+            <summary>
+            Attach built-in event handlers to control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.DetachedEventHandlers">
+            <summary>
+            Detach built-in event handlers from control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.OnDataTemplateChanged(System.Windows.DependencyProperty)">
+            <summary>
+            Overridden.
+            </summary>
+            <param name="dp">The dependency property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.OnClosedCore">
+            <summary>
+            Called when the window is closed and ready to be destroyed.
+            </summary>
+            <returns>Returns true to execute default implementation.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.Navigate(System.Uri)">
+            <summary>
+            Navigate asynchronously to content that is specified by a uniform resource identifier (URI). 
+            </summary>
+            <param name="source">A Uri object initialized with the URI for the desired content.</param>
+            <returns>true if a navigation is not canceled; otherwise, false.</returns>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.Navigator">
+            <summary>
+            Gets the navigator element of this navigation window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.Source">
+            <summary>
+            Specifies the uniform resource identifier (URI) of the navigation window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigationBarVisibility">
+            <summary>
+            Gets or sets the visibility state of the navigation bar.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.UriMapper">
+            <summary>
+            Gets or sets the UriMapper object to provide URI mapping capability. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigatorStyle">
+            <summary>
+            Gets or sets the style applied to the Navigator element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.EnableWindowHostIntegration">
+            <summary>
+            Gets or sets a value indicating whether the navigation window properties should be integrated with the page content.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigationBarUIMode">
+            <summary>
+            Gets or sets the user interface mode of the navigation bar.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.CurrentApplication">
+            <summary>
+            Gets the current ApplicationPackage that loaded to this frame.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.LoaderAppearance">
+            <summary>
+            Specifies the mode that determines the visual appearance of the loader.
+            The loader is shown when the frame is loading an external ApplicationPackage and the ShowLoadingProgress is set to true.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.AllowCancelDownload">
+            <summary>
+            Gets or sets a value that indicates whether users are allowed to cancel the download progress for the current navigated source.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.UseGlobalShell">
+            <summary>
+            Gets or sets a value that indicates whether this frame should use global UXShell instance if available.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.ShowLoadingProgress">
+            <summary>
+            Gets or sets a value that indicates whether the frame should display the loading progress of currently downloaded source.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.IsPrimaryNavigator">
+            <summary>
+            Gets or sets a value that indicates whether this frame is the primary navigator when multiple frames existed in a page.
+            By default, the navigation bar and commands is bound to the primary navigator when querying the navigation status or 
+            when executing navigation commands.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.VirtualPaths">
+            <summary>
+            Gets a collection of VirtualPath objects that associated to this navigation window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.AutoMapApplications">
+            <summary>
+            Gets or sets a value that indicates whether this frame should automatically map the current source 
+            against the Applications collection defined in global UXShell instance.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.EnablePageTransition">
+            <summary>
+            Gets or sets a value that indicates whether visual transition should be applied when a new page navigation occurred.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.DefaultTransitionEffect">
+            <summary>
+            Gets or sets the default transition for this frame. The default transition
+            is used when the frame is unable to determine the navigation mode or direction.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.TransitionDuration">
+            <summary>
+            Gets or sets the duration of the transition effect in seconds. If not specified, the default value is 0.3.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.Navigating">
+            <summary>
+            Occurs when a new navigation is requested.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigationFailed">
+            <summary>
+            Occurs when an error is raised while navigating to the requested content.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.Navigated">
+            <summary>
+            Occurs when the content that is being navigated to has been found, and is available from the Content property, although it may not have completed loading.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigationStopped">
+            <summary>
+            Occurs when the StopLoading method is called, or when a new navigation is requested while a current navigation is in progress.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.FragmentNavigation">
+            <summary>
+            Occurs when navigation to a content fragment begins, which occurs immediately, if the desired fragment is in the current content, 
+            or after the source XAML content has been loaded, if the desired fragment is in different content.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigationCancelled">
+            <summary>
+            Occurs when the navigation progress is cancelled, either by users or through API calls.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.IsLoadingChanged">
+            <summary>
+            Occurs when the IsLoading property value is changed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Aqua.UXDesktop.UXNavigationWindow.NavigationProgress">
+            <summary>
+            Occurs periodically during a download to provide navigation progress information.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.WindowChangeEventArgs">
+            <summary>
+            Provides data for WindowChange event.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.WindowChangeEventHandler">
+            <summary>
+            Represents the method that will handle the WindowChange event.
+            </summary>
+            <param name="sender">The object where the event handler is attached.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.WindowButtons">
+            <summary>
+            Represents the command buttons used in window.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.WindowButtons.IsMaximizedProperty">
+            <summary>
+            Identifies the IsMaximized dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.WindowButtons.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the WindowButtons when a new template is applied.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.WindowButtons.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.WindowButtons.IsMaximized">
+            <summary>
+            Gets or sets a value indicating whether the window is in maximized state.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Aqua.UXDesktop.UXCommandBar">
+            <summary>
+            Represents a panel bar used to host a collection of command buttons.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Aqua.UXDesktop.UXCommandBar.#ctor">
+            <summary>
+            Creates a new instance of UXCommandBar class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXCommandBar.SeparatorVisibilityProperty">
+            <summary>
+            Identifies the SeparatorVisibility dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Aqua.UXDesktop.UXCommandBar.SeparatorBorderProperty">
+            <summary>
+            Identifies the SeparatorBorder dependency property.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXCommandBar.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXCommandBar.SeparatorBorder">
+            <summary>
+            Represents the brush used to draw the top separator border of the command bar.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Aqua.UXDesktop.UXCommandBar.SeparatorVisibility">
+            <summary>
+            Gets or sets a value indicating whether the command bar separator is visible.
+            </summary>
+        </member>
+    </members>
+</doc>

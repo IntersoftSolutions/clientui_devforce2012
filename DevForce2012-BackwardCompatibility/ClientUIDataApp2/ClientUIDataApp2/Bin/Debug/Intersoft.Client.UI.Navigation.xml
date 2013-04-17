@@ -1,0 +1,3577 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Intersoft.Client.UI.Navigation</name>
+    </assembly>
+    <members>
+        <member name="T:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem">
+            <summary>
+            Represents a control that displays list item.
+            </summary>    
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.#ctor">
+            <summary>
+            Initializes a new instance of the UXStackItem class. 
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.OnIsControlMouseOverPropertyChanged(System.Object,System.Object)">
+            <summary>
+            Called when the value of the IsControlMouseOver property changes.
+            </summary>
+            <param name="oldValue">The old value of the IsControlMouseOver property.</param>
+            <param name="newValue">The new value of the IsControlMouseOver property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.OnMouseLeave(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before the MouseLeave event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before the MouseEnter event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the MouseLeftButtonUp event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.OnIsSelectedChanged(System.Boolean,System.Boolean)">
+            <summary>
+            Called when the value of the IsSelected property changes.
+            </summary>
+            <param name="oldValue">The old value of the IsSelected property.</param>
+            <param name="newValue">The new value of the IsSelected property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.InitializeTemplates">
+            <summary>
+            Initializes control templates.
+            </summary>        
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXListBoxItem when a new template is applied.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem.RootElement">
+            <summary>
+            Gets the root element.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXBreadCrumbItem">
+            <summary>
+            Represents the item in UXBreadCrumb control.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.#ctor">
+            <summary>
+            Initializes a new instance of the UXBreadCrumbItem class. 
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.IsDataLoadedProperty">
+            <summary>
+            Identifies the IsDataLoaded dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.IsLoadingProperty">
+            <summary>
+            Identifies the IsLoading dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.AttachEventHandlers">
+            <summary>
+            Attach built-in event handlers to control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.DetachedEventHandlers">
+            <summary>
+            Detach built-in event handlers from control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.InitializeTemplates">
+            <summary>
+            Initializes control templates.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.Menu_Closed(System.Object,Intersoft.Client.Framework.ISRoutedEventArgs)">
+            <summary>
+            On context menu closed.
+            </summary>
+            <param name="sender"/><param name="e"/>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.Menu_Opened(System.Object,Intersoft.Client.Framework.ISRoutedEventArgs)">
+            <summary>
+            Overridden.
+            </summary>
+            <param name="sender">The object that sent this event.</param><param name="e">Event data related to this event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXSplitButton when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.OnContentChanged(System.Object,System.Object)">
+            <summary>
+            Called when the value of the <see cref="P:System.Windows.Controls.ContentControl.Content"/> property changes. 
+            </summary>
+            <param name="oldContent">The old value of the <see cref="P:System.Windows.Controls.ContentControl.Content"/> property.</param><param name="newContent">The new value of the <see cref="P:System.Windows.Controls.ContentControl.Content"/> property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before MouseEnter event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the MouseLeftButtonUp event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.OnSplitButtonClick">
+            <summary>
+            Occurs when the split element is clicked.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.OnClick">
+            <summary>
+            Called before the Click event occurs.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.ChangeVisualState">
+            <summary>
+            Change the visual state.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.GoToSplitButtonHoverState(System.Boolean)">
+            <summary>
+            Go to split button hover state.
+            </summary>
+            <param name="useTransition">Use transition.</param>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.IsDataLoaded">
+            <summary>
+            Gets or sets the value indicating whether the data is loaded.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbItem.IsLoading">
+            <summary>
+            Gets or sets the value indicating whether the UXBreadCrumbItem is loading.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXTabControl">
+            <summary>
+            Represents a control that contains multiple items that share the same space on the screen.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.#ctor">
+            <summary>
+            Initializes a new instance of UXTabControl class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.SelectedContentProperty">
+            <summary>
+            Identifies the SelectedContentProperty dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.TabStripPlacementProperty">
+            <summary>
+            Identifies the TabStripPlacement dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.TabStripHorizontalAlignmentProperty">
+            <summary>
+            Identifies the TabStripHorizontalAlignment dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.TabStripVerticalAlignmentProperty">
+            <summary>
+            Identifies the TabStripVerticalAlignment dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.UriMapperProperty">
+            <summary>
+            Identifies the UriMapper dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.NavigatorStyleProperty">
+            <summary>
+            Identifies the NavigatorStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.HeaderVisibilityProperty">
+            <summary>
+            Identifies the HeaderVisibility dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.VirtualPathsProperty">
+            <summary>
+            Identifies the VirtualPaths dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.EnablePageTransitionProperty">
+            <summary>
+            Identifies the EnablePageTransition dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.AutoDetectNavigationDirectionProperty">
+            <summary>
+            Identifies the AutoDetectNavigationDirection dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.BackTransitionEffectProperty">
+            <summary>
+            Identifies the BackTransitionEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.ForwardTransitionEffectProperty">
+            <summary>
+            Identifies the ForwardTransitionEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.DefaultTransitionEffectProperty">
+            <summary>
+            Identifies the DefaultTransitionEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.TransitionDurationProperty">
+            <summary>
+            Identifies the TransitionDuration dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.IsPrimaryNavigatorProperty">
+            <summary>
+            Identifies the IsPrimaryNavigator dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabControl.UseCachedVisualForTransitionProperty">
+            <summary>
+            Identifies the PerformTransitionOnLoad dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.OnApplyTemplate">
+            <summary>
+            Build the visual tree of UXTabControl.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.InitializeTemplates">
+            <summary>
+            Initializes the templates of UXTabControl.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.AttachEventHandlers">
+            <summary>
+            Attaches built-in event handlers.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.IsItemItsOwnContainerOverride(System.Object)">
+            <summary>
+            Determines if the specified item is (or is eligible to be) its own container.
+            </summary>
+            <param name="item">The item to check.</param>
+            <returns>true if the item is (or is eligible to be) its own container; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.GetContainerForItemOverride">
+            <summary>
+            Creates or identifies the element that is used to display the given item.
+            </summary>
+            <returns>The element that is used to display the given item.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.OnSelectedItemChanged(System.Object,System.Object)">
+            <summary>
+            Called when the <see cref="!:SelectedItem"/> changes.
+            </summary>
+            <param name="oldItem">The old item.</param>
+            <param name="newItem">The new item.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Occurs when the Items collection changes.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.Unselect(System.Object)">
+            <summary>
+            Unselect an item.
+            </summary>
+            <param name="item">The item to unselect.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabControl.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the Measure pass of Silverlight layout.
+            </summary>
+            <param name="availableSize">
+            The available size that this object can give to child objects. Infinity can be specified as a value to indicate that the object will size to whatever content is available.
+            </param>
+            <returns>The size that this object determines it needs during layout, based on its calculations of child object allotted sizes.</returns>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.HeaderVisibility">
+            <summary>
+            Gets or sets a value indicating whether the tab header element is visible.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.UriMapper">
+            <summary>
+            Gets or sets the UriMapper object to provide URI mapping capability. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.NavigatorStyle">
+            <summary>
+            Gets or sets the style applied to the Navigator element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.TabStripVerticalAlignment">
+            <summary>
+            Gets or sets the vertical alignment of the tab strip element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.TabStripHorizontalAlignment">
+            <summary>
+            Gets or sets the horizontal alignment of the tab strip element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.SelectedContent">
+            <summary>
+            Gets the content of the selected item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.TabStripPlacement">
+            <summary>
+            Gets or sets the docking placement of the tabstrip element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.CurrentApplication">
+            <summary>
+            Gets the current ApplicationPackage that loaded to this frame.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.VirtualPaths">
+            <summary>
+            Gets a collection of VirtualPath objects that associated to this control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.EnablePageTransition">
+            <summary>
+            Gets or sets a value that indicates whether visual transition should be applied when a new page navigation occurred.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.AutoDetectNavigationDirection">
+            <summary>
+            Gets or sets a value that indicates whether the navigation direction should be automatically detected.
+            When set to true, this property works with page transition and transition effect to automatically determines
+            which transition to be applied based on the navigation direction.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.BackTransitionEffect">
+            <summary>
+            Gets or sets the transition effect when a back navigation occurs.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.ForwardTransitionEffect">
+            <summary>
+            Gets or sets the transition effect when a forward navigation occurs.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.DefaultTransitionEffect">
+            <summary>
+            Gets or sets the default transition for this frame. The default transition
+            is used when the frame is unable to determine the navigation mode or direction.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.TransitionDuration">
+            <summary>
+            Gets or sets the duration of the transition effect in seconds. If not specified, the default value is 0.3.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.IsPrimaryNavigator">
+            <summary>
+            Gets or sets a value that indicates whether this frame is the primary navigator when multiple frames existed in a page.
+            By default, the navigation bar and commands is bound to the primary navigator when querying the navigation status or 
+            when executing navigation commands.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabControl.UseCachedVisualForTransition">
+            <summary>
+            Gets or sets a value indicating whether a cached visual should be used instead of the actual element when performing transition.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXPage">
+            <summary>
+            Encapsulates content that can be navigated to by a Navigator such as UXFrame and UXNavigationWindow.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXPage.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:Intersoft.Client.UI.Navigation.UXPage"/> class.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXPage.Dispose">
+            <summary>
+            Called when the object is disposed.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.CornerRadiusProperty">
+            <summary>
+            Identifies the IsBusy dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.HeaderCornerRadiusProperty">
+            <summary>
+            Identifies the HeaderCornerRadius dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.FooterCornerRadiusProperty">
+            <summary>
+            Identifies the FooterCornerRadius dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowCanCloseProperty">
+            <summary>
+            Identifies the WindowCanClose dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowCanMaximizeProperty">
+            <summary>
+            Identifies the WindowCanMaximize dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowCanMinimizeProperty">
+            <summary>
+            Identifies the WindowCanMinimize dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowCanResizeProperty">
+            <summary>
+            Identifies the WindowCanResize dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowHeightProperty">
+            <summary>
+            Identifies the WindowHeightProperty dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowWidthProperty">
+            <summary>
+            Identifies the WindowWidthProperty dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowIconProperty">
+            <summary>
+            Identifies the WindowIconProperty dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowTaskbarIconProperty">
+            <summary>
+            Identifies the WindowTaskbarIconProperty dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowTitleProperty">
+            <summary>
+            Identifies the WindowTitleProperty dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowUseDefaultChromeProperty">
+            <summary>
+            Identifies the WindowUseDefaultChrome dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowGroupNameProperty">
+            <summary>
+            Identifies the WindowGroupName dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowIconLargeProperty">
+            <summary>
+            Identifies the WindowIconLarge dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowUseNavigationUIProperty">
+            <summary>
+            Identifies the WindowUseNavigationUI dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.DefaultFocusProperty">
+            <summary>
+            Identifies the DefaultFocus dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.IsBusyProperty">
+            <summary>
+            Identifies the IsBusy dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.BlockUIOnBusyProperty">
+            <summary>
+            Identifies the BlockUIOnBusy dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowLeftProperty">
+            <summary>
+            Identifies the WindowLeft dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowTopProperty">
+            <summary>
+            Identifies the WindowTop dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.CancelNavigationOnDataErrorProperty">
+            <summary>
+            Identifies the CancelNavigationOnDataError dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.NavigatedCommandProperty">
+            <summary>
+            Identifies the NavigatedCommand dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowMinWidthProperty">
+            <summary>
+            Identifies the WindowMinWidth dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowMinHeightProperty">
+            <summary>
+            Identifies the WindowMinHeight dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowMaxWidthProperty">
+            <summary>
+            Identifies the WindowMaxWidth dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.WindowMaxHeightProperty">
+            <summary>
+            Identifies the WindowMaxHeight dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.AutoDisposeDataContextProperty">
+            <summary>
+            Identifies the AutoDisposeDataContext dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXPage.OnApplicationInitialized(Intersoft.Client.Framework.ApplicationEventArgs)">
+            <summary>
+            Called when the <see cref="T:Intersoft.Client.Framework.ApplicationPackage"/> which this page belongs is initialized for the first time.
+            </summary>
+            <param name="e">A <see cref="T:Intersoft.Client.Framework.ApplicationEventArgs"/> object.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXPage.GetWindowHost">
+            <summary>
+            Gets the IWindow object that hosts this page.
+            </summary>
+            <returns>An object instance that implements IWindow.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXPage.GetNavigator">
+            <summary>
+            Gets the navigation control that hosts this page.
+            </summary>
+            <returns>An object instance that implements INavigate.</returns>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.RequiresAuthenticationProperty">
+            <summary>
+            Identifies the RequiresAuthentication dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.RequiresRoleProperty">
+            <summary>
+            Identifies the RequiresRole dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.UseSingleSignOnProperty">
+            <summary>
+            Identifies the UseSingleSignOn dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.UserProperty">
+            <summary>
+            Identifies the User dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXPage.IsAuthenticatedProperty">
+            <summary>
+            Identifies the IsAuthenticated dependency property.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.AutoDisposeDataContext">
+            <summary>
+            Gets or sets a value indicating whether the data context should be automatically disposed when the page is disposed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.NavigatedCommand">
+            <summary>
+            Gets or sets the command to execute when the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> navigates to this page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.CancelNavigationOnDataError">
+            <summary>
+            Gets or sets a value indicating whether navigating from this page should be cancelled if an error existed in the page.
+            </summary>
+            <remarks>
+            For this feature to work properly, the DataContext of the UXPage should implement IDataErrorInfo interface.
+            </remarks>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.IsBusy">
+            <summary>
+            Gets or sets a value indicating whether the page is currently processing a task such as asynchronous data retrieval.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.BlockUIOnBusy">
+            <summary>
+            Gets or sets a value indicating whether the UI elements in the page should be disabled when <see cref="P:Intersoft.Client.UI.Navigation.UXPage.IsBusy"/> property is true.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.NavigationContextExtended">
+            <summary>
+            Gets the navigation context for this page
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.NavigationServiceExtended">
+            <summary>
+            Gets the navigation service for this page
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.CornerRadius">
+            <summary>
+            Represents the radii of the page border which value is used to determine HeaderCornerRadius and FooterCornerRadius.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.HeaderCornerRadius">
+            <summary>
+            Represents the inner radii of the border which can be applied to header element of the page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.FooterCornerRadius">
+            <summary>
+            Represents the inner radii of the border which can be applied to footer element of the page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.DefaultFocus">
+            <summary>
+            Specifies the default UI control to be focused when the page is loaded.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.IsLoaded">
+            <summary>
+            Returns a boolean value indicating whether the page has been completely loaded.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXPage.RequestingAuthentication">
+            <summary>
+            Occurs when the page is requesting authentication.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXPage.Authenticated">
+            <summary>
+            Occurs when the the page is successfully authenticated.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowCanClose">
+            <summary>
+            Gets or sets a value indicating whether the window can be closed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowCanMaximize">
+            <summary>
+            Gets or sets a value indicating whether the window can be maximized.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowCanMinimize">
+            <summary>
+            Gets or sets a value indicating whether the window can be minimized.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowCanResize">
+            <summary>
+            Gets or sets a value indicating whether the window can be resized.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowHeight">
+            <summary>
+            Gets or sets the window's height.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowWidth">
+            <summary>
+            Gets or sets the window's width.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowIcon">
+            <summary>
+            Gets or sets the window's icon.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowIconLarge">
+            <summary>
+            Gets or sets the window's large icon.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowTitle">
+            <summary>
+            Gets or sets the window's title.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowUseDefaultChrome">
+            <summary>
+            Gets or sets a value indicating whether the window should use default chrome style.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowMaxHeight">
+            <summary>
+            Gets or sets the window's maximum height.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowMaxWidth">
+            <summary>
+            Gets or sets the window's maximum width.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowMinHeight">
+            <summary>
+            Gets or sets the window's minimum height.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowMinWidth">
+            <summary>
+            Gets or sets the window's minimum width.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowGroupName">
+            <summary>
+            Gets or sets the group name for the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowUseNavigationUI">
+            <summary>
+            Gets or sets a value indicating whether the navigation UI should be displayed in navigation window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowLeft">
+            <summary>
+            Gets or sets the left position of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.WindowTop">
+            <summary>
+            Gets or sets the top position of the window.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.RequiresAuthentication">
+            <summary>
+            Gets or sets a value indicating whether the page requires the <see cref="P:Intersoft.Client.UI.Navigation.UXPage.User"/> to be authenticated in order to access the page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.RequiresRole">
+            <summary>
+            Gets or sets the roles required by the <see cref="P:Intersoft.Client.UI.Navigation.UXPage.User"/> to display the page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.UseSingleSignOn">
+            <summary>
+            Gets or sets a value indicating whether the page is automatically authenticated when previous authentication succeeded.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.User">
+            <summary>
+            Gets or sets the <see cref="T:System.Security.Principal.IPrincipal"/> object representing the user that participates in the page authentication.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXPage.IsAuthenticated">
+            <summary>
+            Gets a value indicating whether the associated <see cref="P:Intersoft.Client.UI.Navigation.UXPage.User"/> is authenticated.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.Framework.ISFrame">
+            <summary>
+            Serves as the base class for all Intersoft Client controls.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.AttachEventHandlers">
+            <summary>
+            Attach built-in event handlers to control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.OnUnloaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when the element is unloaded.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event data for the property change.</param>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.InitializeTemplates">
+            <summary>
+            Initializes control templates.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.InitializeStoryboards">
+            <summary>
+            Initializes storyboards.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.DetachedEventHandlers">
+            <summary>
+            Detach built-in event handlers from control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.RefreshClip">
+            <summary>
+            Perform cliping to the dimension of the control. Call this method if necessary
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.RefreshUIElement">
+            <summary>
+            Refresh the entire ui element using the latest configuration.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.ResumeLayout">
+            <summary>
+            Resume the layout.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.SuspendLayout">
+            <summary>
+            Suspend the layout.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.Framework.ISFrame.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Framework.ISFrame.Framework">
+            <summary>
+            Gets the entity framework.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Framework.ISFrame.IsInDesignMode">
+            <summary>
+            Gets a value that indicates whether the control is in design mode (development).
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Framework.ISFrame.LayoutSuspended">
+            <summary>
+            Gets a value that indicates whether the layout is being suspended.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Framework.ISFrame.Platform">
+            <summary>
+            Gets a value that indicates the current client platform.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Framework.ISFrame.IsInDesignModeStatic">
+            <summary>
+            Gets a value that indicates whether the control is in design mode (development).
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Framework.ISFrame.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.Framework.ISFrame.Intersoft#Client#Framework#ILicensing#Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXBreadCrumbBox">
+            <summary>
+            Represents a selection control in a drop-down list form.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.#ctor">
+            <summary>
+            Initializes a new instance of the UXBreadCrumbBox class. 
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.CornerRadiusDoubleProperty">
+            <summary>
+            Identifies the CornerRadiusDouble dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownCornerRadiusProperty">
+            <summary>
+            Identifies the CornerRadiusDouble dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownBackgroundProperty">
+            <summary>
+            Identifies the DropDownBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownBorderBrushProperty">
+            <summary>
+            Identifies the "DropDownBorderBrush dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsControlFocusedProperty">
+            <summary>
+            Identifies the IsControlFocused dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsControlMouseOverProperty">
+            <summary>
+            Identifies the IsControlMouseOver dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsControlPressedProperty">
+            <summary>
+            Identifies the IsControlPressed dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.PopupStyleProperty">
+            <value>
+            The identifier for the PopupStyle dependency property.
+            </value>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.TextBoxBackgroundProperty">
+            <summary>
+            Identifies the TextBoxBackground dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.TextBoxPaddingProperty">
+            <summary>
+            Identifies the TextBoxPadding dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.TextBoxStyleProperty">
+            <summary>
+            Identifies the TextBoxStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.ScrollViewerStyleProperty">
+            <value>
+            The identifier for the ScrollViewerStyle dependency property.
+            </value>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MaxDropDownHeightProperty">
+            <summary>
+            Identifies the MaxDropDownHeight dependency property. 
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MaxDropDownWidthProperty">
+            <summary>
+            Identifies the MaxDropDownWidth dependency property. 
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MinDropDownHeightProperty">
+            <summary>
+            Identifies the MinDropDownHeight dependency property. 
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MinDropDownWidthProperty">
+            <summary>
+            Identifies the MinDropDownWidth dependency property. 
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownWidthCalculatedProperty">
+            <summary>
+            Identifies the DropDownWidthCalculated dependency property. 
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownEffectProperty">
+            <summary>
+            Identifies the DropDownEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownBorderThicknessProperty">
+            <summary>
+            Identifies the DropDownBorderThickness dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.EnableFocusAnimationProperty">
+            <summary>
+            Identifies the EnableFocusAnimation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsDropDownOpenProperty">
+            <summary>
+            Identifies the IsDropDownOpen dependency property. 
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.TextProperty">
+            <summary>
+            Identifies the Text dependency property. 
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnGotFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            Called before the GotFocus event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnLostFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            Called before the LostFocus event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnLostKeyboardFocus(Intersoft.Client.Framework.Input.KeyboardFocusChangedEventArgs)">
+            <summary>
+            Inheritors should override this method to handle custom logic for LostKeyboardFocus event.
+            </summary>
+            <param name="e">KeyboardFocusChangedEventArgs object.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.InitializeTemplates">
+            <summary>
+            Initializes control templates.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.AttachEventHandlers">
+            <summary>
+            Attach built-in event handlers to control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DetachedEventHandlers">
+            <summary>
+            Detach built-in event handlers from control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before MouseEnter event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnMouseLeave(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before the MouseLeave event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the MouseLeftButtonDown event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the MouseLeftButtonUp event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXDropDownButton when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.ChangeVisualState">
+            <summary>
+            Change visual state.
+            </summary>        
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.ChangeVisualState(System.Boolean)">
+            <summary>
+            Change visual state.
+            </summary>
+            <param name="useTransitions">Use transition.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.GoToFocusedState(System.Boolean)">
+            <summary>
+            Go to focused state.
+            </summary>
+            <param name="animate">Use animation.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.GoToKeyboardFocusedState(System.Boolean)">
+            <summary>
+            Go to keyboard focused state.
+            </summary>
+            <param name="animate">Use transition.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.GoToMouseOverState(System.Boolean)">
+            <summary>
+            Go to mouse over state.
+            </summary>
+            <param name="animate">Use animation.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.GoToNormalState(System.Boolean)">
+            <summary>
+            Go to normal state.
+            </summary>
+            <param name="animate">Use animation.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.GoToPressedState(System.Boolean)">
+            <summary>
+            Go to pressed state
+            </summary>
+            <param name="animate">Use animation.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnCornerRadiusChanged(System.Windows.CornerRadius)">
+            <summary>
+            Called when the value of CornerRadius property changes.
+            </summary>
+            <param name="newRadius">The new corner radius.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnIsEnabledChanged(System.Object,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the value of IsEnabled property changes.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event data for the property change.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnItemsSourceChanged(System.Collections.IEnumerable,System.Collections.IEnumerable)">
+            <summary>
+            Called when the value of ItemsSource property changes.
+            </summary>
+            <param name="oldValue">The old value of the ItemsSource property.</param>
+            <param name="newValue">The new value of the ItemsSource property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnIsKeyboardFocusChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the value of IsKeyboardFocus property changes.
+            </summary>
+            <param name="e">>The event data for the property change.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnIsPressedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the value of IsPressed property changes.
+            </summary>
+            <param name="e">The event data for the property change.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MenuStateChanged(System.Boolean)">
+            <summary>
+            On dropdown menu state changed.
+            </summary>
+            <param name="isOpen">A value that indicates whether the menu is being opened or closed.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.SelectText(System.Int32,System.Int32)">
+            <summary>
+            Select the input text.
+            </summary>
+            <param name="start">Start position</param>
+            <param name="length">Length</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.SelectAllText">
+            <summary>
+            Select the input text.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Select(Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem)">
+            <summary>
+            Select the specified item.
+            </summary>
+            <param name="item">Item</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Unselect(Intersoft.Client.UI.Navigation.UXBreadCrumbBoxItem)">
+            <summary>
+            Unselect the specified item.
+            </summary>
+            <param name="item">Item</param>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.ShowKeyboardFocusVisualProperty">
+            <summary>
+            Identifies the ShowKeyboardFocusVisual dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsKeyboardFocusedProperty">
+            <summary>
+            Identifies the IsKeyboardFocused dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.SetFocus">
+            <summary>
+            Redirects focus to the text input element.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.GetContainerForItemOverride">
+            <summary>
+            Creates or identifies the element that is used to display the given item.
+            </summary>
+            <returns>
+            The element that is used to display the given item.
+            </returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsItemItsOwnContainerOverride(System.Object)">
+            <summary>
+            Determines if the specified item is (or is eligible to be) its own container.
+            </summary>
+            <returns>
+            true if the item is (or is eligible to be) its own container; otherwise, false.
+            </returns>
+            <param name="item">The item to check.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Menu_Opened(System.Object,Intersoft.Client.Framework.ISRoutedEventArgs)">
+            <summary>
+            On context menu opened.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Menu_Closed(System.Object,Intersoft.Client.Framework.ISRoutedEventArgs)">
+            <summary>
+            On drop down menu closed.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Called when the value of the ItemsControl.Items property changes.
+            </summary>
+            <param name="e">NotifyCollectionChangedEventArgs that contains the event data</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnIsDropDownOpenChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the value of IsDropDownOpen property changes.
+            </summary>
+            <param name="e">The event data for the property change.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnSelectedIndexChanged(System.Int32,System.Int32)">
+            <summary>
+            Called when the value of the SelectedIndex property changes.
+            </summary>
+            <param name="oldIndex">The old value of the SelectedIndex property.</param>
+            <param name="newIndex">The new value of the SelectedIndex property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnSelectedItemChanged(System.Object,System.Object)">
+            <summary>
+            Called when the value of the SelectedItem property changes.
+            </summary>
+            <param name="oldItem">The old value of the SelectedItem property.</param><param name="newItem">The new value of the SelectedItem property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.OnTextChanged(System.String,System.String)">
+            <summary>
+            Called when the value of Text property changes.
+            </summary>        
+            <param name="oldText">oldText</param>
+            <param name="newText">newText</param>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.PopupElement">
+            <summary>
+            UXPopup element. <see cref="T:Intersoft.Client.UI.Controls.UXPopup"/>
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.InputElement">
+            <summary>
+            TextBox element. <see cref="T:System.Windows.Controls.TextBox"/>
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.RootElement">
+            <summary>
+            Gets the root element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.TextBoxPadding">
+            <summary>
+            Gets or sets the padding of the text box element of the <see cref="T:Intersoft.Client.UI.Navigation.UXBreadCrumbBox"/>.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.CornerRadiusDouble">
+            <summary>
+            Corner Radius in double type for template binding.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownCornerRadius">
+            <summary>
+            Corner Radius for input template binding.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownBackground">
+            <summary>
+            Represents the brush used to draw the dropdown background.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownBorderBrush">
+            <summary>
+            Represents the brush used to draw the dropdown border.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.TextBoxBackground">
+            <summary>
+            Represents the brush used to draw the textbox background.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsControlFocused">
+            <summary>
+            Gets or sets a value that indicates whether the control is focused.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsControlMouseOver">
+            <summary>
+            Gets or sets a value that indicates whether the control is hovered.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsControlPressed">
+            <summary>
+            Gets or sets a value that indicates whether the control is pressed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.PopupStyle">
+            <summary>
+            Gets or sets the Popup style.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.TextBoxStyle">
+            <summary>
+            Gets or sets the TextBoxStyle style.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.ScrollViewerStyle">
+            <summary>
+            Gets or sets the UXScrollViewer style.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MaxDropDownHeight">
+            <summary>
+            Gets or sets the maximum height of content inside drop down list.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MaxDropDownWidth">
+            <summary>
+            Gets or sets the maximum width of content inside drop down list.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MinDropDownHeight">
+            <summary>
+            Gets or sets the minimum height of content inside drop down list.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.MinDropDownWidth">
+            <summary>
+            Gets or sets the minimum width of content inside drop down list.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownWidthCalculated">
+            <summary>
+            Gets or sets the minimum width of content inside drop down list.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownEffect">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Effects.Effect"/> to apply to the dropdown element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.DropDownBorderThickness">
+            <summary>
+            Gets or sets the dropdown border thickness.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.EnableFocusAnimation">
+            <summary>
+            Specifies whether this button should be animated when focused.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsDropDownOpen">
+            <summary>
+            Gets or sets whether the dropdown menu is currently displaying on the screen.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Text">
+            <summary>
+            Gets or sets the text value.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Closed">
+            <summary>
+            Occurs when the dropdown menu of the button is closed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.Opened">
+            <summary>
+            Occurs when the dropdown menu of the button is opened.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.SupportKeyboardFocus">
+            <summary>
+            Gets the SupportKeyboardFocus property.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.RaiseEventOnLostFocus">
+            <summary>
+            Gets the RaiseEventOnLostFocus property.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.ShowKeyboardFocusVisual">
+            <summary>
+            Gets or sets the value indiciating whether keyboard focus visual is visible.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsKeyboardFocused">
+            <summary>
+            Gets or sets the value indicating whether the UXBreadCrumbBox control is keyboard focused.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.IsKeyboardFocusWithin">
+            <summary>
+            Gets the IsKeyboardFocusWithin property.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.GotKeyboardFocus">
+            <summary>
+            Occurs when the keyboard is focused on this element.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXBreadCrumbBox.LostKeyboardFocus">
+            <summary>
+            Occurs when the keyboard is no longer focused on this element.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.SitemapData">
+            <summary>
+            Represents SitemapData object that will be used by <see cref="T:Intersoft.Client.UI.Navigation.UXBreadCrumb"/> control.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.SitemapData.ChildrenProperty">
+            <summary>
+            Identifies the Children dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.SitemapData.DisplayNameProperty">
+            <summary>
+            Identifies the DisplayName dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.SitemapData.IconProperty">
+            <summary>
+            Identifies the Icon dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.SitemapData.NavigateUriProperty">
+            <summary>
+            Identifies the NavigateUri dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.SitemapData.ToString">
+            <summary>
+            Returns a string that represents the current object.
+            </summary>
+            <returns>
+            A string that represents the current object.
+            </returns>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.SitemapData.Children">
+            <summary>
+            Gets or sets the value that specifies the children.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.SitemapData.DisplayName">
+            <summary>
+            Gets or sets the value of the display name.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.SitemapData.Icon">
+            <summary>
+            Gets or sets the value of the icon.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.SitemapData.NavigateUri">
+            <summary>
+            Gets or sets the value of navigate uri.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.SitemapData.Parent">
+            <summary>
+            Gets or sets the value of parent.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UriMapper">
+            <summary>
+            Converts a uniform resource identifier (URI) into a new URI based on the rules of a matching object specified in a collection of mapping objects.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UriMapper.#ctor">
+            <summary>
+            Initializes a new instance of the UriMapper class. 
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UriMapper.MapUri(System.Uri)">
+            <summary>
+            Converts a specified uniform resource identifier (URI) into a new URI based on the rules of a matching object in the UriMappings collection.
+            </summary>
+            <param name="uri">Original URI value to be converted to a new URI.</param>
+            <returns>A URI to use for handling the request instead of the value of the uri parameter. If no object in the UriMappings collection matches uri, the original value for uri is returned.</returns>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UriMapper.UriMappings">
+            <summary>
+            Gets a collection of objects that are used to convert a uniform resource identifier (URI) into a new URI.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrameLoader.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXFrameLoader when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrameErrorPage.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXFrameErrorPage when a new template is applied.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXBreadCrumb">
+            <summary>
+            Represents a navigation control that provides breadcrumb navigation.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.#ctor">
+            <summary>
+            Initializes a new instance of the UXBreadCrumb class. 
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.AllowChildNavigationProperty">
+            <summary>
+            Identifies the AllowChildNavigation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.ActualRootIconProperty">
+            <summary>
+            Identifies the ActualRootIcon dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.ActualRootNameProperty">
+            <summary>
+            Identifies the ActualRootName dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.ActualRootUriProperty">
+            <summary>
+            Identifies the ActualRootUri dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.CurrentUriProperty">
+            <summary>
+            Identifies the CurrentUri dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.DefaultUriProperty">
+            <summary>
+            Identifies the DefaultUri dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.ExpandedItemProperty">
+            <summary>
+            Identifies the ExpandedItem dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsControlMouseOverProperty">
+            <summary>
+            Identifies the IsControlMouseOver dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsEditableProperty">
+            <summary>
+            Identifies the IsEditable dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsEditingProperty">
+            <summary>
+            Identifies the IsEditing dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsLoadingProperty">
+            <summary>
+            Identifies the IsLoading dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsLoadOnDemandProperty">
+            <summary>
+            Identifies the IsLoadOnDemand dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsRefreshButtonVisibleProperty">
+            <summary>
+            Identifies the IsRefreshButtonVisible dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsRootVisibleProperty">
+            <summary>
+            Identifies the IsRootVisible dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsRootIconVisibleProperty">
+            <summary>
+            Identifies the IsRootIconVisible dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.MinItemWidthProperty">
+            <summary>
+            Identifies the MinItemWidth dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.NavigateCommandProperty">
+            <summary>
+            Identifies the NavigateCommand dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.NavigateUriMemberPathProperty">
+            <summary>
+            Identifies the NavigateUriMemberPath dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.PathSeparatorProperty">
+            <summary>
+            Identifies the PathSeparator dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.ProcessedItemProperty">
+            <summary>
+            Identifies the ProcessedItem dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.QueryResultProperty">
+            <summary>
+            Identifies the QueryResult dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.QueryTextProperty">
+            <summary>
+            Identifies the QueryText dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.RefreshImageProperty">
+            <summary>
+            Identifies the RefreshImage dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.RootIconProperty">
+            <summary>
+            Identifies the RootIcon dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.RootNameProperty">
+            <summary>
+            Identifies the RootName dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.RootUriProperty">
+            <summary>
+            Identifies the RootUri dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.SeparatorStyleProperty">
+            <summary>
+            Identifies the SeparatorStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.SitemapProperty">
+            <summary>
+            Identifies the SitemapProperty dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXBreadCrumb.TargetFrameProperty">
+            <summary>
+            Identifies the TargetFrame dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.AttachEventHandlers">
+            <summary>
+            Attach built-in event handlers to control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.DetachedEventHandlers">
+            <summary>
+            Detach built-in event handlers from control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.InitializeTemplates">
+            <summary>
+            Initializes control templates.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the ISItemsControl when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnGotFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.GotFocus"/> event occurs.
+            </summary>
+            <param name="e">The data for the event. </param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before MouseEnter event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnMouseLeave(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before MouseLeave event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.KeyDown"/> event occurs.
+            </summary>
+            <param name="e">The data for the event. </param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnItemsSourceChanged(System.Collections.IEnumerable,System.Collections.IEnumerable)">
+            <summary>
+            Called when the value of ItemsSource property changes.
+            </summary>
+            <param name="oldValue">The old value of the ItemsSource property.</param><param name="newValue">The new value of the ItemsSource property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Called when the value of the <see cref="P:System.Windows.Controls.ItemsControl.Items"/> property changes.
+            </summary>
+            <param name="e">A <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> that contains the event data</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnLostFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.LostFocus"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseLeftButtonDown"/> event occurs.
+            </summary>
+            <param name="e">The data for the event. </param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)">
+            <summary>
+            Prepares the specified element to display the specified item.
+            </summary>
+            <param name="element">The container element used to display the specified item.</param><param name="item">The item to display.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.GetContainerForItemOverride">
+            <summary>
+            Creates or identifies the element that is used to display the given item.
+            </summary>
+            <returns>
+            The element that is used to display the given item.
+            </returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsItemItsOwnContainerOverride(System.Object)">
+            <summary>
+            Determines if the specified item is (or is eligible to be) its own container.
+            </summary>
+            <returns>
+            true if the item is (or is eligible to be) its own container; otherwise, false.
+            </returns>
+            <param name="item">The item to check.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.GenerateSitemap(System.Xml.Linq.XDocument,System.String,System.String,System.String,System.String)">
+            <summary>
+            Utility method of UXBreadCrumb control to easily generate sitemap from the view model that can be bound directly to Sitemap property. <seealso cref="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.Sitemap"/>
+            </summary>
+            <param name="xDocument">XML Document</param>
+            <param name="displayNamePath">Display name attribute</param>
+            <param name="navigateUriPath">Navigate uri attribute </param>
+            <param name="childrenPath">Children attribute</param>
+            <param name="iconPath">Icon attribute</param>
+            <returns>IEnumerable of SitemapData</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXBreadCrumb.RefreshBreadCrumb(System.Uri)">
+            <summary>
+            Refreshes the breadcrumb.
+            </summary>
+            <param name="uri">uri</param>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.ActualRootIcon">
+            <summary>
+            Gets or sets the icon that will be used for the root item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.ActualRootName">
+            <summary>
+            Gets or sets the name that will be used for the root item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.ActualRootUri">
+            <summary>
+            Gets or sets the uri that will be used for the root item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.AllowChildNavigation">
+            <summary>
+            Gets or sets the value indiciating whether child navigation is allowed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.CurrentUri">
+            <summary>
+            Gets or sets the value of the current uri used by the UXBreadCrumb control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.DefaultUri">
+            <summary>
+            Gets or sets the value of the default uri which will be shown for the first time in the UXBreadCrumb control, regardless of current uri.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.ExpandedItem">
+            <summary>
+            Gets or sets the expanded item which will be passed to the user during load on demand process. <seealso cref="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.ProcessedItem"/>
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsControlMouseOver">
+            <summary>
+            Gets or sets a value that indicates whether the item is hovered.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsEditable">
+            <summary>
+            Gets or sets the value indicating whether the UXBreadCrumb control is editable.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsEditing">
+            <summary>
+            Gets or sets the value indicating whether the UXBreadCrumb control is currently editing.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsLoading">
+            <summary>
+            Gets or sets the value indicating whether the UXBreadCrumb control is loading during load on demand scenario.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsLoadOnDemand">
+            <summary>
+            Gets or sets the value indicating whether is load on demand is enabled for the UXBreadCrumb control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsRefreshButtonVisible">
+            <summary>
+            Gets or sets the value indicating whether the refresh button is visible.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.RefreshImage">
+            <summary>
+            Gets or sets the ImageSource for the refresh button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsRootIconVisible">
+            <summary>
+            Gets or sets the value indicating whether root icon is visible.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.IsRootVisible">
+            <summary>
+            Gets or sets the value indicating whether root item is visible.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.MinItemWidth">
+            <summary>
+            Gets or sets the value of the minimum item width during resizing process.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.NavigateCommand">
+            <summary>
+            Gets or sets the value of the ICommand which can be used to handle additional process on navigated using DelegateCommand.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.NavigateUriMemberPath">
+            <summary>
+            Gets or sets the value of the navigate uri member path.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.PathSeparator">
+            <summary>
+            Gets or sets the value of the separator used to separate the navigate uri.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.ProcessedItem">
+            <summary>
+            Gets or sets the value of the processed item used in load on demand scenario. <seealso cref="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.ExpandedItem"/>
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.QueryResult">
+            <summary>
+            Gets or sets the value of the query result used in load on demand scenario. <seealso cref="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.QueryText"/>
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.QueryText">
+            <summary>
+            Gets or sets the value of the query text used in load on demand scenario, which will then be passed to <see cref="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.QueryResult"/>.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.RootIcon">
+            <summary>
+            Gets or sets the value of the icon of root item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.RootName">
+            <summary>
+            Gets or sets the value of the name of root item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.RootUri">
+            <summary>
+            Gets or sets the value of the uri of root item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.SeparatorStyle">
+            <summary>
+            Gets or sets the style to apply to separator of the UXBreadCrumb control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.Sitemap">
+            <summary>
+            Gets or sets the value of the sitemap used in the UXBreadCrumb control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXBreadCrumb.TargetFrame">
+            <summary>
+            Gets or sets the value of the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> the UXBreadCrumb should listen to during OnNavigated and OnNavigationFailed event.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UriConverter">
+            <summary>
+            Utility class that converts Uri to string.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UriConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+            <param name="value">The source data being passed to the target.</param><param name="targetType">The <see cref="T:System.Type"/> of data expected by the target dependency property.</param><param name="parameter">An optional parameter to be used in the converter logic.</param><param name="culture">The culture of the conversion.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UriConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay"/> bindings.
+            </summary>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+            <param name="value">The target data being passed to the source.</param><param name="targetType">The <see cref="T:System.Type"/> of data expected by the source object.</param><param name="parameter">An optional parameter to be used in the converter logic.</param><param name="culture">The culture of the conversion.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXNavigationBar">
+            <summary>
+            Represents a navigation bar that contains a collection of predefined navigation commands such as Back, Forward and Refresh.
+            The navigation bar automatically works with a navigator such as UXFrame or UXNavigationWindow.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXNavigationBar.#ctor">
+            <summary>
+            Creates a new instance of UXNavigationBar class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.GoBackToolTipProperty">
+            <summary>
+            Identifies the GoBackToolTip dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.GoForwardToolTipProperty">
+            <summary>
+            Identifies the GoForwardToolTip dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.RefreshToolTipProperty">
+            <summary>
+            Identifies the RefreshToolTip dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.StopToolTipProperty">
+            <summary>
+            Identifies the StopToolTip dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.HomeToolTipProperty">
+            <summary>
+            Identifies the HomeToolTip dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.HomeUriProperty">
+            <summary>
+            Identifies the HomeUri dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.RefreshButtonVisibilityProperty">
+            <summary>
+            Identifies the RefreshButtonVisibility dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.StopButtonVisibilityProperty">
+            <summary>
+            Identifies the StopButtonVisibility dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.HomeButtonVisibilityProperty">
+            <summary>
+            Identifies the HomeButtonVisibility dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.JournalButtonStyleProperty">
+            <summary>
+            Identifies the JournalButtonStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.ToolBarButtonStyleProperty">
+            <summary>
+            Identifies the ToolBarButtonStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.AdditionalToolGroupProperty">
+            <summary>
+            Identifies the AdditionalToolGroup dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.TargetNameProperty">
+            <summary>
+            Identifies the TargetName dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.NavigationTargetProperty">
+            <summary>
+            Identifies the NavigationTarget dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXNavigationBar.ForwardButtonVisibilityProperty">
+            <summary>
+            Identifies the ForwardButtonVisibility dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXNavigationBar.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXNavigationBar when a new template is applied.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.JournalButtonElement">
+            <summary>
+            Gets the JournalButton instance.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.TargetName">
+            <summary>
+            Gets or sets the target frame to apply to the navigation source elements in the control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.GoForwardToolTip">
+            <summary>
+            Specifies the tooltip text for Forward button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.GoBackToolTip">
+            <summary>
+            Specifies the tooltip text for Back button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.HomeButtonVisibility">
+            <summary>
+            Specifies the visibility state of the Home button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.StopButtonVisibility">
+            <summary>
+            Specifies the visibility state of the Stop button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.RefreshButtonVisibility">
+            <summary>
+            Specifies the visibility state of the Refresh button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.HomeUri">
+            <summary>
+            Specifies the Uri where the navigator should navigate when the Home button is clicked.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.HomeToolTip">
+            <summary>
+            Specifies the tooltip text for Home button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.StopToolTip">
+            <summary>
+            Specifies the tooltip text for Stop button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.RefreshToolTip">
+            <summary>
+            Specifies the tooltip text for Refresh button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.AdditionalToolGroup">
+            <summary>
+            Specifies the data template, usually contains additional navigation buttons, which will be added to the navigation bar.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.ToolBarButtonStyle">
+            <summary>
+            Specifies the style applied to the ToolBarButton object in the navigation bar.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.JournalButtonStyle">
+            <summary>
+            Specifies the style applied to the JournalButton object.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.ForwardButtonVisibility">
+            <summary>
+            Gets or sets the visibility of the forward button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXNavigationBar.NavigationTarget">
+            <summary>
+            Gets or sets the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> instance whose history to be managed by the UXJournalButton.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.JournalHistory">
+            <summary>
+            Represents the journal history management for a navigation control.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.JournalHistory.GoBack">
+            <summary>
+            Go back to the previous entry in the journal.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.JournalHistory.GoForward">
+            <summary>
+            Go forward to the next entry in the journal.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.JournalHistory.CanGoBack">
+            <summary>
+            Determines whether there is at least one back entry in the journal.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.JournalHistory.CanGoForward">
+            <summary>
+            Determines whether there is at least one forward entry in the journal.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXFrame">
+            <summary>
+            Represents a navigation control that supports local Silverlight pages and contents from external XAP package.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.CornerRadiusProperty">
+            <summary>
+            Identifies the CornerRadius dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.UseGlobalShellProperty">
+            <summary>
+            Identifies the UseGlobalShell dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.ShowLoadingProgressProperty">
+            <summary>
+            Identifies the ShowLoadingProgress dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.LoaderStyleProperty">
+            <summary>
+            Identifies the LoaderStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.ErrorStyleProperty">
+            <summary>
+            Identifies the ErrorStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.DisplayFragmentInBrowserProperty">
+            <summary>
+            Identifies the DisplayFragmentInBrowser dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.AllowNestedFrameNavigationProperty">
+            <summary>
+            Identifies the AllowNestedFrameNavigation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.VirtualPathsProperty">
+            <summary>
+            Identifies the VirtualPaths dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.AutoMapApplicationsProperty">
+            <summary>
+            Identifies the AutoMapApplications dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.EnablePageTransitionProperty">
+            <summary>
+            Identifies the EnablePageTransition dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.AutoDetectNavigationDirectionProperty">
+            <summary>
+            Identifies the AutoDetectNavigationDirection dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.BackTransitionEffectProperty">
+            <summary>
+            Identifies the BackTransitionEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.ForwardTransitionEffectProperty">
+            <summary>
+            Identifies the ForwardTransitionEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.NewTransitionEffectProperty">
+            <summary>
+            Identifies the NewTransitionEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.DefaultTransitionEffectProperty">
+            <summary>
+            Identifies the DefaultTransitionEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.LoadingTransitionEffectProperty">
+            <summary>
+            Identifies the LoadingTransitionEffect dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.TransitionDurationProperty">
+            <summary>
+            Identifies the TransitionDuration dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.IsPrimaryNavigatorProperty">
+            <summary>
+            Identifies the IsPrimaryNavigator dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.IsLoadingProperty">
+            <summary>
+            Identifies the IsLoading dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.ProgressTextProperty">
+            <summary>
+            Identifies the ProgressText dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.AllowCancelDownloadProperty">
+            <summary>
+            Identifies the AllowCancelDownload dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.LoaderAppearanceProperty">
+            <summary>
+            Identifies the LoaderAppearance dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.IsBusyProperty">
+            <summary>
+            Identifies the IsBusy dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.BusyIndicatorTemplateProperty">
+            <summary>
+            Identifies the BusyIndicator dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.IsAuthenticatingProperty">
+            <summary>
+            Identifies the IsAuthenticating dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.BusyIndicatorLatencyProperty">
+            <summary>
+            Identifies the BusyIndicatorLatency dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.IsInitializingProperty">
+            <summary>
+            Identifies the IsInitializing dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.UseCachedVisualForTransitionProperty">
+            <summary>
+            Identifies the PerformTransitionOnLoad dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.ReloadContentOnChildNavigationProperty">
+            <summary>
+            Identifies the ReloadContentOnChildNavigation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.NavigationStateProperty">
+            <summary>
+            Identifies the NavigationState dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.PresenterStyleProperty">
+            <summary>
+            Identifies the PresenterStyle dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.TransitionStrategyProperty">
+            <summary>
+            Identifies the TransitionStrategy dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.TransitionLatencyProperty">
+            <summary>
+            Identifies the TransitionLatency dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.UriMappingScopeProperty">
+            <summary>
+            Identifies the UriMappingScope dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.IsLoadingChangedEvent">
+            <summary>
+            Identifies the IsLoadingChanged routed event.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXFrame when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.GetShell">
+            <summary>
+            Gets the UXShell instance that manages application life cycle for the UXFrame control.
+            </summary>
+            <returns>A UXShell object.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.SetContent(System.Object,System.Boolean)">
+            <summary>
+            Sets the specified content directly to the UXFrame bypassing its navigation state.
+            </summary>
+            <param name="content">The new content to be set onto this control.</param>
+            <param name="animateIfPossible">Determines whether transition should be used when possible.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.StopLoading">
+            <summary>
+            Stops the currently loading application. If the application is being downloaded, the download will be cancelled.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.Navigate(System.Uri,System.Object)">
+            <summary>
+            Navigates asynchronously to source content located at a uniform resource identifier (URI), 
+            and passes an object that contains data to be used for processing during navigation.
+            </summary>
+            <param name="uri">A Uri object initialized with the URI for the desired content. </param>
+            <param name="extraData">A Object that contains data to be used for processing during navigation.</param>
+            <returns>true if navigation is not canceled; otherwise, false.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.GetPrimaryNavigator(System.Windows.UIElement)">
+            <summary>
+            Returns the UXFrame instance which is the first-match primary navigator found in the specified source.
+            </summary>
+            <param name="source">The source element in which the frame should be located.</param>
+            <returns>An UXFrame instance.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.GetFrameHost(System.Windows.UIElement)">
+            <summary>
+            Returns the UXFrame instance that hosts the given UIElement.
+            </summary>
+            <param name="source">The source element to query.</param>
+            <returns>An UXFrame instance.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.GetFrame(System.Int32)">
+            <summary>
+            Gets the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> instance based on the specified frame level.
+            </summary>
+            <param name="level">The frame level to be returned.</param>
+            <returns>An <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> instance.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.GetCurrentPageTitle">
+            <summary>
+            Returns the page title of the currently loaded content.
+            </summary>
+            <returns>A string object representing the current page title.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.GetActiveNestedPage(System.Windows.UIElement)">
+            <summary>
+            Returns the active page instance in the last hierarchy of nested child navigation structure.
+            </summary>
+            <param name="page">The element representing the page to be searched from.</param>
+            <returns>Returns a Page object.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.Reset">
+            <summary>
+            Reset the UXFrame to the initial navigation state
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.ClearApplicationSource">
+            <summary>
+            Clear the application source previously loaded to the UXFrame instance.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.GetPresenterElement">
+            <summary>
+            Gets the element that represents the content presenter.
+            </summary>
+            <returns>A ContentTransition object.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.DetachedEventHandlers">
+            <summary>
+            Detach built-in event handlers from control templates. Call this method if necessary.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.Dispose">
+            <summary>
+            Called when the control is disposed.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXFrame.OnUnloaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when the element is unloaded.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event data for the property change.</param>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.RedirectUriProperty">
+            <summary>
+            Identifies the RedirectUri dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.UserProperty">
+            <summary>
+            Identifies the User dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXFrame.IsAuthenticatedProperty">
+            <summary>
+            Identifies the IsAuthenticated dependency property.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.TransitionLatency">
+            <summary>
+            Gets or sets the time span (in seconds) to wait before the transition is performed. 
+            This property only applies when TransitionStrategy is set to WaitContentReady.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.TransitionStrategy">
+            <summary>
+            Gets or sets a value that determines how the control handles the transition process.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.PresenterStyle">
+            <summary>
+            Gets or sets the style to apply to the presenter element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.BusyIndicatorLatency">
+            <summary>
+            Gets or sets the latency in seconds to wait before the busy indicator is displayed after the <see cref="P:Intersoft.Client.UI.Navigation.UXFrame.IsBusy"/> is set to true.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.IsBusy">
+            <summary>
+            Gets or sets a value indicating whether the page hosted by this <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> is in busy state.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.BusyIndicatorTemplate">
+            <summary>
+            Gets or sets the template that represents busy indicator when the <see cref="P:Intersoft.Client.UI.Navigation.UXFrame.IsBusy"/> is true.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.History">
+            <summary>
+            Gets the JournalHistory instance for journal management of this control. 
+            This property is applicable only when AllowNestedFrameNavigation property is set to true.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.FrameLevel">
+            <summary>
+            Gets the depth level of the the UXFrame in the visual hierarchy.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.RestoreVirtualizedUri">
+            <summary>
+            Determines whether virtual Uris should be restored after mapped.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.CurrentApplication">
+            <summary>
+            Gets the current ApplicationPackage that loaded to this frame.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.Owner">
+            <summary>
+            Gets the parent element that owns this frame.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.LoaderAppearance">
+            <summary>
+            Specifies the mode that determines the visual appearance of the loader.
+            The loader is shown when the frame is loading an external ApplicationPackage and the ShowLoadingProgress is set to true.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.AllowCancelDownload">
+            <summary>
+            Gets or sets a value that indicates whether users are allowed to cancel the download progress for the current navigated source.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.ProgressText">
+            <summary>
+            Gets or sets the text displayed during download progress.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.IsLoading">
+            <summary>
+            Gets a value that determines whether this frame is currently in loading progress.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.UseGlobalShell">
+            <summary>
+            Gets or sets a value that indicates whether this frame should use global UXShell instance if available.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.ShowLoadingProgress">
+            <summary>
+            Gets or sets a value that indicates whether the frame should display the loading progress of currently downloaded source.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.LoaderStyle">
+            <summary>
+            Specifies the style applied in the loader page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.ErrorStyle">
+            <summary>
+            Specifies the style applied in the error page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.DisplayFragmentInBrowser">
+            <summary>
+            Gets or sets a value that indicates whether this frame should display the fragment of the current journal in the browser.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.AllowNestedFrameNavigation">
+            <summary>
+            Gets or sets a value that indicates whether this frame can host nested frames to support child navigation.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.VirtualPaths">
+            <summary>
+            Gets a collection of VirtualPath objects that associated to this frame.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.AutoMapApplications">
+            <summary>
+            Gets or sets a value that indicates whether this frame should automatically map the current source 
+            against the Applications collection defined in global UXShell instance.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.EnablePageTransition">
+            <summary>
+            Gets or sets a value that indicates whether visual transition should be applied when a new page navigation occurred.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.AutoDetectNavigationDirection">
+            <summary>
+            Gets or sets a value that indicates whether the navigation direction should be automatically detected.
+            When set to true, this property works with page transition and transition effect to automatically determines
+            which transition to be applied based on the navigation direction.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.BackTransitionEffect">
+            <summary>
+            Gets or sets the transition effect when a back navigation occurs.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.ForwardTransitionEffect">
+            <summary>
+            Gets or sets the transition effect when a forward navigation occurs.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.NewTransitionEffect">
+            <summary>
+            Gets or sets the transition effect when a new navigation occurs.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.LoadingTransitionEffect">
+            <summary>
+            Gets or sets the transition effect when the frame is loading an external source.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.DefaultTransitionEffect">
+            <summary>
+            Gets or sets the default transition for this frame. The default transition
+            is used when the frame is unable to determine the navigation mode or direction.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.TransitionDuration">
+            <summary>
+            Gets or sets the duration of the transition effect in seconds. If not specified, the default value is 0.3.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.IsPrimaryNavigator">
+            <summary>
+            Gets or sets a value that indicates whether this frame is the primary navigator when multiple frames existed in a page.
+            By default, the navigation bar and commands is bound to the primary navigator when querying the navigation status or 
+            when executing navigation commands.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.IsAuthenticating">
+            <summary>
+            Gets or sets a value indicating whether the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> is currently performing authentication process.
+            When the property is set to true, the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> will delay the navigation process until the authentication process is done.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.IsInitializing">
+            <summary>
+            Gets or sets a value indicating whether the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> is currently waiting for asynchronous initialization to complete.
+            When the property is set to true, the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> will delay the navigation process until the initialization process is completed.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.UseCachedVisualForTransition">
+            <summary>
+            Gets or sets a value indicating whether a cached visual should be used instead of the actual element when performing transition.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.CornerRadius">
+            <summary>
+            Represents the radius of a border's corner. The radius can't be negative.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.ReloadContentOnChildNavigation">
+            <summary>
+            Gets or sets a value indicating whether the frame's content should be navigated when a child navigation occurred.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.NavigationState">
+            <summary>
+            Gets a value that represents the URI of the current navigation state. 
+            The value also combines the URI of the active child navigators, i.e., /Products/Category
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.OriginalSource">
+            <summary>
+            Gets a value that represents the original URI of the current source before mapped (for WPF compatibility purpose).
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.UriMappingScope">
+            <summary>
+            Gets or sets a value that determines the URI mapping scope applied to this navigation frame.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.Navigating">
+            <summary>
+            Occurs when a new navigation is requested.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.NavigationFailed">
+            <summary>
+            Occurs when an error is raised while navigating to the requested content.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.Navigated">
+            <summary>
+            Occurs when the content that is being navigated to has been found, and is available from the Content property, although it may not have completed loading.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.NavigationStopped">
+            <summary>
+            Occurs when the StopLoading method is called, or when a new navigation is requested while a current navigation is in progress.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.FragmentNavigation">
+            <summary>
+            Occurs when navigation to a content fragment begins, which occurs immediately, if the desired fragment is in the current content, 
+            or after the source XAML content has been loaded, if the desired fragment is in different content.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.NavigationCancelled">
+            <summary>
+            Occurs when the navigation progress is cancelled, either by users or through API calls.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.IsLoadingChanged">
+            <summary>
+            Occurs when the IsLoading property value is changed.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.NavigationProgress">
+            <summary>
+            Occurs periodically during a download to provide navigation progress information.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.RequestingAuthentication">
+            <summary>
+            Occurs when the content hosted by the UXFrame is requesting authentication.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.Authenticating">
+            <summary>
+            Occurs when the content hosted by the UXFrame is authenticating pages before they are presented to the container.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.LoggedIn">
+            <summary>
+            Occurs when the <see cref="P:Intersoft.Client.UI.Navigation.UXFrame.User"/> associated to the UXFrame is successfully authenticated.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.LoggedOut">
+            <summary>
+            Occurs when the <see cref="P:Intersoft.Client.UI.Navigation.UXFrame.User"/> associated to the UXFrame is logged out.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXFrame.ResolveNavigationDirection">
+            <summary>
+            Occurs when the NavigationDirection property is being resolved.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.ApplicationID">
+            <summary>
+            Gets the unique identifier that represents the application associated to this frame.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.ApplicationUri">
+            <summary>
+            Gets the unique resource identifier (URI) of the application associated to this frame.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.RedirectUri">
+            <summary>
+            Gets or sets the uniform resource identifier (URI) that will be navigated when the authentication is requested.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.User">
+            <summary>
+            Gets or sets the <see cref="T:System.Security.Principal.IPrincipal"/> object representing the user to be authenticated.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXFrame.IsAuthenticated">
+            <summary>
+            Gets a value indicating whether the associated <see cref="P:Intersoft.Client.UI.Navigation.UXFrame.User"/> is authenticated.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.VirtualPath">
+            <summary>
+            Represents a virtual path used to map URI source in a navigator.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.VirtualPath.Uri">
+            <summary>
+            The virtual URI of a navigator source.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.VirtualizedUri">
+            <summary>
+            Represents a virtualized URI used in a navigator.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.VirtualizedUri.MatchedMap">
+            <summary>
+            The matched UriMapping of the virtualized URI.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.VirtualizedUri.MappedUri">
+            <summary>
+            The string presentation of the mapped URI.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.VirtualizedUri.IsFragmentUri">
+            <summary>
+            Determines whether the mapped source is a fragment URI.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.VirtualizedUri.VirtualUri">
+            <summary>
+            The string presentation of the virtualized URI.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigatedCommandParameter">
+            <summary>
+            Represents the class that provides contextual information for the <see cref="!:NavigatedCommand"/>.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatedCommandParameter.QueryString">
+            <summary>
+            Gets the dictionary of the query string passed to this page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatedCommandParameter.ParentDataContext">
+            <summary>
+            Gets the DataContext of the parent that owns the page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatedCommandParameter.DataContext">
+            <summary>
+            Gets the DataContext of the page content being navigated.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatedCommandParameter.Uri">
+            <summary>
+            Gets the URI of the navigated page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatedCommandParameter.ExtraData">
+            <summary>
+            Gets the extra data of the navigated page.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationEventHandler">
+            <summary>
+            Represents the method that will handle the Navigation event.
+            </summary>
+            <param name="sender">The object where the event handler is attached.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigatingCancelEventHandler">
+            <summary>
+            Represents the method that will handle the NavigationCancel event.
+            </summary>
+            <param name="sender">The object where the event handler is attached.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationFailedEventHandler">
+            <summary>
+            Represents the method that will handle the NavigationFailed event.
+            </summary>
+            <param name="sender">The object where the event handler is attached.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.FragmentNavigationEventHandler">
+            <summary>
+            Represents the method that will handle the FragmentNavigation event.
+            </summary>
+            <param name="sender">The object where the event handler is attached.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationStateChangedEventHandler">
+            <summary>
+            Represents the method that will handle the NavigationStateChanged event.
+            </summary>
+            <param name="sender">The object where the event handler is attached.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationProgressEventHandler">
+            <summary>
+            Represents the method that will handle the NavigationProgress event.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationDirectionChangedEventHandler">
+            <summary>
+            Represents the method that will handle the ResolveNavigationDirectionEvent event.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.ChildNavigationEventHandler">
+            <summary>
+            Represents the method that will handle the ChildNavigation event.
+            </summary>
+            <param name="sender">The object where the event handler is attached.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationProgressEventArgs">
+            <summary>
+            Provides data for the NavigationProgress event. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationProgressEventArgs.BytesRead">
+            <summary>
+            Gets the number of bytes that have been read. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationProgressEventArgs.MaxBytes">
+            <summary>
+            Gets the maximum number of bytes. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationProgressEventArgs.Navigator">
+            <summary>
+            Gets the navigator that raised the event 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationProgressEventArgs.Uri">
+            <summary>
+            Gets the uniform resource identifier (URI) of the target page. 
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationStateChangedEventArgs">
+            <summary>
+            Provides data for the NavigationStateChanged event. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationStateChangedEventArgs.NewNavigationState">
+            <summary>
+            Gets the new navigation state that raised from a navigator.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationStateChangedEventArgs.PreviousNavigationState">
+            <summary>
+            Gets the previous navigation state.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationDirectionChangedEventArgs">
+            <summary>
+            Provides data for ResolveNavigationDirection event.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationDirectionChangedEventArgs.ResolvedTransitionDirection">
+            <summary>
+            Gets or sets the transition direction to apply to the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/>.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationDirectionChangedEventArgs.NavigationDirection">
+            <summary>
+            Gets the current navigation direction of the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/>.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationDirectionChangedEventArgs.FragmentDirection">
+            <summary>
+            Gets the current fragment direction of the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/>.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationDirectionChangedEventArgs.NavigationMode">
+            <summary>
+            Gets the current navigation mode of the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/>.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationDirectionChangedEventArgs.Uri">
+            <summary>
+            Gets the target Uri that the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> is navigating to.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs">
+            <summary>
+            Provides data for the Navigating event.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether the event should be canceled. 
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs.Uri">
+            <summary>
+            Gets the uniform resource identifier (URI) for the content being navigated to.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs.NavigationMode">
+            <summary>
+            Gets a NavigationMode value that indicates the type of navigation that is occurring.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs.UserNavigationDirection">
+            <summary>
+            Gets or sets the navigation direction that initiated by users.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs.FragmentNavigationDirection">
+            <summary>
+            Gets the navigation direction of the current navigated fragment.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs.Content">
+            <summary>
+            Gets a reference to the content object that is being navigated to.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs.BaseEventArgs">
+            <summary>
+            Gets the original NavigatingCancelEventArgs raised by native navigation system.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigatingCancelEventArgs.ExtraData">
+            <summary>
+            Gets the optional data Object that was passed when navigation started.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationFailedEventArgs">
+            <summary>
+            Provides data for the NavigationFailed event.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationFailedEventArgs.Uri">
+            <summary>
+            Gets the uniform resource identifier (URI) for the content that could not be navigated to.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationFailedEventArgs.Exception">
+            <summary>
+            Gets the Exception that was raised as the result of a failed navigation.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationFailedEventArgs.BaseEventArgs">
+            <summary>
+            Gets the original NavigationFailedEventArgs raised by native navigation system.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationFailedEventArgs.ExtraData">
+            <summary>
+            Gets the optional data Object that was passed when navigation started.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationEventArgs">
+            <summary>
+            Provides data for non-cancelable navigation events, including LoadCompleted, Navigated, and NavigationStopped.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationEventArgs.Uri">
+            <summary>
+            Gets the uniform resource identifier (URI) of the target page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationEventArgs.Content">
+            <summary>
+            Gets the root node of the target page's content.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationEventArgs.IsVirtualPage">
+            <summary>
+            Gets or sets a value that determines whether the target page is a virtual page.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationEventArgs.LoaderContent">
+            <summary>
+            Gets or sets the content for page loader.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationEventArgs.BaseEventArgs">
+            <summary>
+            Gets the original NavigationEventArgs raised by native navigation system.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.NavigationEventArgs.ExtraData">
+            <summary>
+            Gets the optional data Object that was passed when navigation started.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.FragmentNavigationEventArgs">
+            <summary>
+            Provides data for the FragmentNavigation event.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.FragmentNavigationEventArgs.Fragment">
+            <summary>
+            Gets the uniform resource identifier (URI) fragment.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.ChildNavigationEventArgs">
+            <summary>
+            Provides data for the ChildNavigation event.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.ChildNavigationEventArgs.Uri">
+            <summary>
+            Gets the uniform resource identifier (URI) that the child frame is navigating to.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.ChildNavigationEventArgs.QueryString">
+            <summary>
+            Gets the collection that contains the query string dictionary of the current navigation context.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationEvents">
+            <summary>
+            Represents navigation-related routed events.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.NavigatingEvent">
+            <summary>
+            Identifies the Navigating routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.NavigationFailedEvent">
+            <summary>
+            Identifies the NavigationFailed routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.ResolveNavigationDirectionEvent">
+            <summary>
+            Identifies the ResolveNavigationDirection routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.NavigatedEvent">
+            <summary>
+            Identifies the Navigated routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.NavigationStoppedEvent">
+            <summary>
+            Identifies the NavigationStopped routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.NavigationCancelledEvent">
+            <summary>
+            Identifies the NavigationCancelled routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.FragmentNavigationEvent">
+            <summary>
+            Identifies the FragmentNavigation routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.ChildNavigationEvent">
+            <summary>
+            Identifies the ChildNavigation routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.NavigationStateChangedEvent">
+            <summary>
+            Identifies the NavigationStateChanged routed event.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationEvents.NavigationProgressEvent">
+            <summary>
+            Identifies the NavigationProgress routed event.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXPageLoader.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UriMapping">
+            <summary>
+            Defines the pattern for converting a requested uniform resource identifier (URI) into a new URI.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UriMapping.MapUri(System.Uri)">
+            <summary>
+            Converts the specified uniform resource identifier (URI) to a new URI, if the specified URI matches the defined template for converting.
+            </summary>
+            <param name="uri">The URI to convert.</param>
+            <returns>The URI that has been converted or null if the URI cannot be converted.</returns>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UriMapping.MappedUri">
+            <summary>
+            Gets or sets the uniform resource identifier (URI) that is navigated to instead of the originally requested URI.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UriMapping.Uri">
+            <summary>
+            Gets or sets the pattern to match when determining if the requested uniform resource identifier (URI) is converted to a mapped URI.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UriMapping.IsChildNavigation">
+            <summary>
+            Gets or sets a value indicating whether the specified uniform resource identifier (URI) should be processed in child-level navigation.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.RegionAdapters.TabControlRegionAdapter">
+            <summary>
+            Represents the region adapter for tab controls.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.RegionAdapters.TabControlRegionAdapter.PrepareContainerForItem(System.Object,System.Windows.DependencyObject)">
+            <summary>
+            Prepare the container for the specified item.
+            </summary>
+            <param name="item">The item of which container to prepare.</param>
+            <param name="parent">The parent of the container.</param>
+            <returns>Returns the container for the item.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.RegionAdapters.TabControlRegionAdapter.GetContent(System.Windows.DependencyObject)">
+            <summary>
+            Gets the content of the given container.
+            </summary>
+            <param name="container">The container of which content to get.</param>
+            <returns>Returns the content of the associated container.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.RegionAdapters.TabControlRegionAdapter.GetContainer(System.Object)">
+            <summary>
+            Gets the container of the specified item.
+            </summary>
+            <param name="item">The item of which container to get.</param>
+            <returns>Returns tbe container that hosts the item.</returns>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.RegionAdapters.TabControlRegionAdapter.Deactivate(System.Object)">
+            <summary>
+            Deactivates the specified view.
+            </summary>
+            <param name="view">The view to deactivate.</param>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.RegionAdapters.TabControlRegionAdapter.IsItemContainerRequired">
+            <summary>
+            Determines whether a specific item container is required for this adapter.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXJournalButtons">
+            <summary>
+            Provides predefined buttons for journal navigation which includes Back and Forward button.
+            Currently supported navigators are UXFrame and UXNavigationWindow.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXJournalButtons.#ctor">
+            <summary>
+            Creates a new instance of UXJournalButton class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXJournalButtons.GoBackToolTipProperty">
+            <summary>
+            Identifies the GoBackToolTip dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXJournalButtons.GoForwardToolTipProperty">
+            <summary>
+            Identifies the GoForwardToolTip dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXJournalButtons.NavigationTargetProperty">
+            <summary>
+            Identifies the NavigationTarget dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXJournalButtons.ForwardButtonVisibilityProperty">
+            <summary>
+            Identifies the ForwardButtonVisibility dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXJournalButtons.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the UXJournalButton when a new template is applied.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXJournalButtons.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXJournalButtons.BackButtonElement">
+            <summary>
+            Gets the Back button instance.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXJournalButtons.ForwardButtonElement">
+            <summary>
+            Gets the Forward button instance.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXJournalButtons.GoForwardToolTip">
+            <summary>
+            Specifies the tooltip text for Forward button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXJournalButtons.GoBackToolTip">
+            <summary>
+            Specifies the tooltip text for Back button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXJournalButtons.ForwardButtonVisibility">
+            <summary>
+            Gets or sets the visibility of the forward button.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXJournalButtons.NavigationTarget">
+            <summary>
+            Gets or sets the <see cref="T:Intersoft.Client.UI.Navigation.UXFrame"/> instance whose history to be managed by the UXJournalButton.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UXTabItem">
+            <summary>
+            Represents a tab item that consists of tab header and tab page.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabItem.#ctor">
+            <summary>
+            Initializes a new instance of UXTabItem class.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.DefaultFocusProperty">
+            <summary>
+            Identifies the DefaultFocus dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.HeaderImageStretchProperty">
+            <summary>
+            Identifies the IconStretch dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.HeaderImageProperty">
+            <summary>
+            Identifies the Icon dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.HeaderDisplayModeProperty">
+            <summary>
+            Identifies the HeaderDisplayMode dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.TextImageRelationProperty">
+            <summary>
+            Identifies the TextImageRelation dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.ImageHeightProperty">
+            <summary>
+            Identifies the ImageHeight dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.ImageWidthProperty">
+            <summary>
+            Identifies the ImageWidth dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.SourceProperty">
+            <summary>
+            Identifies the Source dependency property.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabItem.OnApplyTemplate">
+            <summary>
+            Build the visual tree of UXTabItem.
+            </summary>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabItem.OnContentChanged(System.Object,System.Object)">
+            <summary>
+            Called when the value of the Content property changes.
+            </summary>
+            <param name="oldContent">The old value of the Content property.</param>
+            <param name="newContent">The new value of the Content property.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabItem.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the System.Windows.UIElement.MouseLeftButtonDown event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabItem.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Called before the KeyDown event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabItem.ChangeVisualState(System.Boolean)">
+            <summary>
+            Called when visual state changes.
+            </summary>
+            <param name="useTransitions">Indicates whether transition should be used.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabItem.OnIsEnabledChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when IsEnabled property changes.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Intersoft.Client.UI.Navigation.UXTabItem.OnIsKeyboardFocusChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the value of IsKeyboardFocus property changes.
+            </summary>
+            <param name="e">>The event data for the property change.</param>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.ShowKeyboardFocusVisualProperty">
+            <summary>
+            Identifies the ShowKeyboardFocusVisual dependency property.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UXTabItem.IsKeyboardFocusedProperty">
+            <summary>
+            Identifies the IsKeyboardFocused dependency property.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.Product">
+            <summary>
+            Product Info.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.TabContent">
+            <summary>
+            Gets the value that represents the content of this tab item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.DefaultFocus">
+            <summary>
+            Gets or sets the control ID to be default focus when the <see cref="T:Intersoft.Client.UI.Navigation.UXTabItem"/> is selected.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.Source">
+            <summary>
+            Specifies the uniform resource identifier (URI) of the tab item.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.TextImageRelation">
+            <summary>
+            Specifies the position of the text and image relative to each other on a control.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.ImageHeight">
+            <summary>
+            Specifies the height applied to the icon element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.ImageWidth">
+            <summary>
+            Specifies the width applied to the icon element.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.HeaderDisplayMode">
+            <summary>
+            Specifies the display mode of the content presentation.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.HeaderImageStretch">
+            <summary>
+            Gets or sets a value that determines the stretching characteristic of the header image.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.HeaderImage">
+            <summary>
+            Gets or sets the image source of the header.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.SupportKeyboardFocus">
+            <summary>
+            Determines whether this control should support keyboard focus mechanism.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.RaiseEventOnLostFocus">
+            <summary>
+            Determines whether the event should be raised when the control loses its focus.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.ShowKeyboardFocusVisual">
+            <summary>
+            Gets or sets a value indicating whether a visual hint should be displayed when the control is focused with a keyboard device.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.IsKeyboardFocused">
+            <summary>
+            Gets or sets a value that indicates whether this control has keyboard focus.
+            </summary>
+        </member>
+        <member name="P:Intersoft.Client.UI.Navigation.UXTabItem.IsKeyboardFocusWithin">
+            <summary>
+            Determines whether the keyboard focus is within this control.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXTabItem.GotKeyboardFocus">
+            <summary>
+            Occurs when the control receives keyboard focus.
+            </summary>
+        </member>
+        <member name="E:Intersoft.Client.UI.Navigation.UXTabItem.LostKeyboardFocus">
+            <summary>
+            Occurs when the control loses keyboard focus.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.UriMappingScope">
+            <summary>
+            Specifies the scope of the UriMapping for a navigation host.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UriMappingScope.RelativeToRootApplication">
+            <summary>
+            Instructs the navigation host to resolve the UriMapping against the physical Uri in the root application.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.UriMappingScope.RelativeToCurrentApplication">
+            <summary>
+            Instructs the navigation host to resolve the UriMapping against the physical Uri relative to the current application.
+            This mode is particularly useful for external applications (see <see cref="!:ApplicationPackage"/> that are loaded on demand.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.FrameLoaderStyle">
+            <summary>
+            Specifies the appearance of the frame loader.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.FrameLoaderStyle.Simple">
+            <summary>
+            The frame will display simple loader style.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.FrameLoaderStyle.Verbose">
+            <summary>
+            The frame will display verbose loader style.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.NavigationDirection">
+            <summary>
+            Specifies value that describes the direction of current navigation.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationDirection.Back">
+            <summary>
+            The back navigation is performed.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationDirection.Forward">
+            <summary>
+            The forward navigation is performed.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationDirection.New">
+            <summary>
+            New navigation is performed.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationDirection.Unknown">
+            <summary>
+            The navigation direction can't be determined.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.NavigationDirection.Itself">
+            <summary>
+            The navigation is performed to an identical URI source or content.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.FragmentNavigationDirection">
+            <summary>
+            Specifies value that describes the direction of fragment navigation.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.FragmentNavigationDirection.Root">
+            <summary>
+            The navigation is targeting the root page.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.FragmentNavigationDirection.CrossFragment">
+            <summary>
+            The navigation is targeting the source that is sibling to the current source.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.FragmentNavigationDirection.Parent">
+            <summary>
+            The navigation is targeting the parent page.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.FragmentNavigationDirection.Child">
+            <summary>
+            The navigation is targeting the child page.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.FragmentNavigationDirection.Unknown">
+            <summary>
+            The fragment navigation is unknown.
+            </summary>
+        </member>
+        <member name="T:Intersoft.Client.UI.Navigation.DirectionDetectionMode">
+            <summary>
+            Specifies how the navigation direction is determined.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.DirectionDetectionMode.FromFrame">
+            <summary>
+            The direction detection is based on the current frame source.
+            </summary>
+        </member>
+        <member name="F:Intersoft.Client.UI.Navigation.DirectionDetectionMode.FromFragment">
+            <summary>
+            The direction detection is based on the current fragment.
+            </summary>
+        </member>
+    </members>
+</doc>

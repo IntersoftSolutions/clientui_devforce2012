@@ -1,0 +1,2 @@
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\With Compatibility\ClientUIDataApp2\ClientUIDataApp2\ClientUIDataApp2
+Generated_Code\ClientUIDataApp2.Web.g.cs

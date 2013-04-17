@@ -1,0 +1,33 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="ClientUIDataApp5" EntryPointType="ClientUIDataApp5.App" RuntimeVersion="5.0.61118.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="ClientUIDataApp5" Source="ClientUIDataApp5.dll" />
+    <AssemblyPart x:Name="IdeaBlade.Core.SL" Source="IdeaBlade.Core.SL.dll" />
+    <AssemblyPart x:Name="IdeaBlade.EntityModel.SL" Source="IdeaBlade.EntityModel.SL.dll" />
+    <AssemblyPart x:Name="IdeaBlade.Linq.SL" Source="IdeaBlade.Linq.SL.dll" />
+    <AssemblyPart x:Name="IdeaBlade.Validation.SL" Source="IdeaBlade.Validation.SL.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.Data.ComponentModel" Source="Intersoft.Client.Data.ComponentModel.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.Data.Provider.DevForce2012" Source="Intersoft.Client.Data.Provider.DevForce2012.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.Framework" Source="Intersoft.Client.Framework.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.UI.Aqua" Source="Intersoft.Client.UI.Aqua.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.UI.Aqua.UXCollection" Source="Intersoft.Client.UI.Aqua.UXCollection.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.UI.Aqua.UXDesktop" Source="Intersoft.Client.UI.Aqua.UXDesktop.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.UI.Aqua.UXInput" Source="Intersoft.Client.UI.Aqua.UXInput.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.UI.Controls" Source="Intersoft.Client.UI.Controls.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.UI.Controls.Interactivity" Source="Intersoft.Client.UI.Controls.Interactivity.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.UI.Data" Source="Intersoft.Client.UI.Data.dll" />
+    <AssemblyPart x:Name="Intersoft.Client.UI.Navigation" Source="Intersoft.Client.UI.Navigation.dll" />
+    <AssemblyPart x:Name="Microsoft.CompilerServices.AsyncTargetingPack.Silverlight5" Source="Microsoft.CompilerServices.AsyncTargetingPack.Silverlight5.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.Composition" Source="System.ComponentModel.Composition.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.Composition.Initialization" Source="System.ComponentModel.Composition.Initialization.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+    <AssemblyPart x:Name="System.Data.Services.Client" Source="System.Data.Services.Client.dll" />
+    <AssemblyPart x:Name="System.ServiceModel.DomainServices.Client" Source="System.ServiceModel.DomainServices.Client.dll" />
+    <AssemblyPart x:Name="System.ServiceModel.DomainServices.Client.Web" Source="System.ServiceModel.DomainServices.Client.Web.dll" />
+    <AssemblyPart x:Name="System.ServiceModel.Web.Extensions" Source="System.ServiceModel.Web.Extensions.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Navigation" Source="System.Windows.Controls.Navigation.dll" />
+    <AssemblyPart x:Name="System.Windows.Data" Source="System.Windows.Data.dll" />
+    <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+    <AssemblyPart x:Name="System.Xml.Serialization" Source="System.Xml.Serialization.dll" />
+  </Deployment.Parts>
+</Deployment>

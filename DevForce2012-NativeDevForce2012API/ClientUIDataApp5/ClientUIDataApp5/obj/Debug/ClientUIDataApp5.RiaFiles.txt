@@ -1,0 +1,2 @@
+C:\Users\Intersoft\Desktop\Yudi\Final DF2012\Without Compatibility\ClientUIDataApp5\ClientUIDataApp5\ClientUIDataApp5
+Generated_Code\ClientUIDataApp5.Web.g.cs
